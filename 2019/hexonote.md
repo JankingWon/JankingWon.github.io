@@ -842,7 +842,7 @@ $ npm install gulp-minify-css gulp-uglify gulp-htmlmin gulp-imagemin gulp-htmlcl
 
 # 死亡警告
 
-{% note danger %}千万不要在hexo server的时候更改博客内容，不然内容会被**清空**的！{% endnote %}
+千万不要在hexo server的时候更改博客内容，不然内容会被**清空**的！
 
 # 参考资料
 
