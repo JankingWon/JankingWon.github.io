@@ -178,31 +178,31 @@ func (srv *Server) Serve(l net.Listener) error {
 
 ### 浏览器测试
 
-![1542370188173](http://blog.janking.cn/post/cloudgo/1542370188173.png)
+![1542370188173](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/cloudgo/1542370188173.png)
 
 ------
 
-![1542370274467](http://blog.janking.cn/post/cloudgo/1542370274467.png)
+![1542370274467](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/cloudgo/1542370274467.png)
 
 ------
 
-![1542372223840](http://blog.janking.cn/post/cloudgo/1542372223840.png)
+![1542372223840](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/cloudgo/1542372223840.png)
 
 ------
 
 
 
-![1542372152453](http://blog.janking.cn/post/cloudgo/1542372152453.png)
+![1542372152453](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/cloudgo/1542372152453.png)
 
 ### CURL测试
 
 这里以`/hello-world`为例
 
-![1542370833916](http://blog.janking.cn/post/cloudgo/1542370833916.png)
+![1542370833916](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/cloudgo/1542370833916.png)
 
 ### ab压力测试
 
-![1542370975132](http://blog.janking.cn/post/cloudgo/1542370975132.png)
+![1542370975132](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/cloudgo/1542370975132.png)
 
 从请求相应时间来看
 

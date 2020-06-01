@@ -28,7 +28,7 @@ date: 2018-12-18 19:28:51
 
 ## 效果
 
-![效果](https://blog.janking.cn/post/android11/效果.gif)
+![效果](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android11/效果.gif)
 
 ## 添加依赖
 
@@ -51,13 +51,13 @@ implementation 'com.squareup.retrofit2:adapter-rxjava2:2.2.0'
 
 ## 项目结构
 
-![1545134400855](https://blog.janking.cn/post/android11/1545134400855.png)
+![1545134400855](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android11/1545134400855.png)
 
 ## 新增一个跳转的ACTIVITY
 
 布局写两个按钮就好了
 
-![1545139511959](https://blog.janking.cn/post/android11/1545139511959.png)
+![1545139511959](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android11/1545139511959.png)
 
 `SwitchActivity.java`
 
@@ -106,7 +106,7 @@ public class SwitchActivity extends AppCompatActivity {
 
 ### 新建`GithubRepoObj.java`
 
-![1545133845596](https://blog.janking.cn/post/android11/1545133845596.png)
+![1545133845596](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android11/1545133845596.png)
 
 这是用来装`HTTP`请求的表明用户每个仓库信息的`Json`数据转换的实体类，已经调用了谷歌的`gson`库，所以只要注解`SerializedName`添加正确，可以实现从`Json`到`Class`的自动转换
 
@@ -391,7 +391,7 @@ holder.repo_issues_count.setText(String.valueOf(repos.get(position).getOpen_issu
 
 #### 布局`activity_repo.xml`
 
-![Screenshot_20181218-193814](https://blog.janking.cn/post/android11/Screenshot_20181218-193814.png)
+![Screenshot_20181218-193814](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android11/Screenshot_20181218-193814.png)
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -601,7 +601,7 @@ retrofit.addCallAdapterFactory(RxJava2CallAdapterFactory.create())
 > java.lang.IllegalArgumentException: Unable to create call adapter for io.reactivex.Observable<java.util.List<com.sysu.janking.httpapi.GithubRepoObj>> for method GitHubService.getRepo
 > ```
 >
-> ![error](https://blog.janking.cn/post/android11/error.png)
+> ![error](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android11/error.png)
 
 更多可以查看[RxJava2的介绍](https://blog.csdn.net/aiynmimi/article/details/53382567)
 
@@ -812,7 +812,7 @@ public class GithubIssueRecyclerAdapter extends RecyclerView.Adapter<GithubIssue
 
 #### 布局`activity_issues.xml`
 
-![Screenshot_20181218-193827](https://blog.janking.cn/post/android11/Screenshot_20181218-193827.png)
+![Screenshot_20181218-193827](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android11/Screenshot_20181218-193827.png)
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -988,7 +988,7 @@ public class IssuesActivity extends AppCompatActivity {
 
 
 
-## ![img](https://blog.janking.cn/post/android11/03F7F6F9.png)对`Github`某个仓库(`repository`)添加问题(`issue`)
+## ![img](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android11/03F7F6F9.png)对`Github`某个仓库(`repository`)添加问题(`issue`)
 
 ### API原型
 
@@ -1064,27 +1064,27 @@ public class GithubPostIssueObj {
 
 在已经登录`GitHub`的账户上点击`Setting`
 
-![1545137613065](https://blog.janking.cn/post/android11/1545137613065.png)
+![1545137613065](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android11/1545137613065.png)
 
 
 
 点击`Developer Setting`
 
-![1545137564490](https://blog.janking.cn/post/android11/1545137564490.png)
+![1545137564490](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android11/1545137564490.png)
 
 点击`Personal access tokens`，并点击`Generate new token`
 
-![1545137683072](https://blog.janking.cn/post/android11/1545137683072.png)
+![1545137683072](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android11/1545137683072.png)
 
 应该只要允许`repo`权限就好了（不然权限太大很危险）
 
-![1545137843183](https://blog.janking.cn/post/android11/1545137843183.png)
+![1545137843183](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android11/1545137843183.png)
 
 点击确认之后应该就会返回`Token`列表显示具体的`token`值
 
 > `token`值只会显示一次，所以得及时复制保存，忘了的话，点击上图中的`Regenerate token`就好了
 
-![1545137913662](https://blog.janking.cn/post/android11/1545137913662.png)
+![1545137913662](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android11/1545137913662.png)
 
 然后把这个`token`填写到`GitHubService`里面的`token`项中
 

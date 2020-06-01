@@ -1167,7 +1167,7 @@ button.setOnClickListener(new View.OnClickListener() {
 
 这里实现的是点击评论出现评论的**用户名**以及其**电话号码**的对话框
 
-![4](https://blog.janking.cn/post/android7/4.gif)
+![4](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android7/4.gif)
 
 首先需要**静态申请权限**，在`AndroidManifest.xml`里添加
 
@@ -1220,7 +1220,7 @@ Cursor cursor = getContentResolver().query(ContactsContract.CommonDataKinds.Phon
 
 申请权限的对话框还没有弹出来，也就是说此时**权限还没有申请到**，但是却执行了搜索通讯录的操作，所以会出现以下报错
 
-![1542125860646](https://blog.janking.cn/post/android7/1542125860646.png)
+![1542125860646](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android7/1542125860646.png)
 
 
 
@@ -1295,7 +1295,7 @@ ComponentInfo{com.example.myapplication/com.example.myapplication.MainActivity}:
 
 ### 文件结构
 
-![1542128122750](https://blog.janking.cn/post/android7/1542128122750.png)
+![1542128122750](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android7/1542128122750.png)
 
 ### 数据结构
 
@@ -1303,7 +1303,7 @@ ComponentInfo{com.example.myapplication/com.example.myapplication.MainActivity}:
 
 
 
-![1542127662720](https://blog.janking.cn/post/android7/1542127662720.png)
+![1542127662720](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android7/1542127662720.png)
 
 
 
@@ -1311,9 +1311,9 @@ ComponentInfo{com.example.myapplication/com.example.myapplication.MainActivity}:
 
 
 
-![1542127805022](https://blog.janking.cn/post/android7/1542127805022.png)
+![1542127805022](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android7/1542127805022.png)
 
-![1542127844289](https://blog.janking.cn/post/android7/1542127844289.png)
+![1542127844289](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android7/1542127844289.png)
 
 验证数据没有什么问题
 

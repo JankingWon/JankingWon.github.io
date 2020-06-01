@@ -15,7 +15,7 @@ date: 2018-10-05 18:25:11
 
 最近在网络上看到一个很棒的网页源码，想用`CTRL+S`复制到自己的服务器上，却怎么也跑不起来，反正就是各种动画无效，情况如下：
 
-![1538735341216](http://blog.janking.cn/post/html-save-error/1538735341216.png)
+![1538735341216](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/html-save-error/1538735341216.png)
 
 <!-- more --> 
 
@@ -23,13 +23,13 @@ date: 2018-10-05 18:25:11
 
 用F12看了一下网页的加载情况，发现有很多src加载不出来，一看原来是需要加载后缀为`.下载`，我的天，怎么会有这种后缀！
 
-![1538735179088](http://blog.janking.cn/post/html-save-error/1538735179088.png)
+![1538735179088](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/html-save-error/1538735179088.png)
 
 打开我的网站面板看一下，果真是这个样子，而且还竟然真的存在`.下载`文件！
 
-![1538736377891](http://blog.janking.cn/post/html-save-error/1538736377891.png)
+![1538736377891](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/html-save-error/1538736377891.png)
 
-![1538735653614](http://blog.janking.cn/post/html-save-error/1538735653614.png)
+![1538735653614](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/html-save-error/1538735653614.png)
 
 （其实图中那些图标为空白的也是js文件加了后缀）
 

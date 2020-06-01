@@ -23,7 +23,7 @@ date: 2018-10-06 21:13:59
 
 `Typora` windows平台就它了，不用挑了！
 
-![1538833684287](http://blog.janking.cn/post/hexopicture/1538833684287.png)
+![1538833684287](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexopicture/1538833684287.png)
 
 ## 研究插入图片的方法
 
@@ -51,7 +51,7 @@ date: 2018-10-06 21:13:59
 
   这个很容易想到放在跟博客名称相同的一个同级文件夹中最稳不过了！主要是这个是`Hexo`自带的功能，打开`Hexo`的`_config.yml`，修改下面这个地方，表示创建新文章时自动创建一个同名的文件夹用来放资源，这也就是为什么推荐用命令行新建文章的原因。
 
-  ![1538833077471](http://blog.janking.cn/post/hexopicture/1538833077471.png)
+  ![1538833077471](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexopicture/1538833077471.png)
 
 
 
@@ -61,21 +61,21 @@ date: 2018-10-06 21:13:59
 
   这个就是`Typora`的神奇之处了，你可以用QQ截图之类的工具把截图放到剪切板里，在编辑文章的时候粘贴就好了，而且可以设置它的图片保存位置，如下图
 
-  ![](http://blog.janking.cn/post/hexopicture/settypora.png)
+  ![](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexopicture/settypora.png)
 
   要注意选择优先**使用相对路径**，不然就会变成
 
-  ![](http://blog.janking.cn/post/hexopicture/errset.png)
+  ![](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexopicture/errset.png)
 
   正确的应该是这样
 
-  ![1538833642227](http://blog.janking.cn/post/hexopicture/1538833642227.png)
+  ![1538833642227](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexopicture/1538833642227.png)
 
   不过呢，这样还是不能直接发布出去，因为我们的Hexo默认使用**绝对路径而不是相对路径**，发布出去的情况是这样的
 
-![1538834227183](http://blog.janking.cn/post/hexopicture/1538834227183.png)
+![1538834227183](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexopicture/1538834227183.png)
 
-![1538834309726](http://blog.janking.cn/post/hexopicture/1538834309726.png)
+![1538834309726](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexopicture/1538834309726.png)
 
 生成的网页中的图片加载不出来，因为它指向post目录中的图片名称，但是根本没有这个图片啊！因为它是放在文件夹里面的啊！
 
@@ -87,7 +87,7 @@ date: 2018-10-06 21:13:59
 
 - ~~那么可以注意到刚刚的配置文件中有选项是否使用相对路径，为什么不能选呢？**当然不能啦**（应该说我觉得这样不好），它里面的很多内部逻辑都是用绝对路径使用的，我试了一次，最后发现点不了博客的菜单，因为之前默认是/tag，/category等等这样的链接，现在用相对链接找不到某个文章目录下的这些文件，我觉得这样后期修改太麻烦了！~~
 
-  ![1538833796822](http://blog.janking.cn/post/hexopicture/1538833796822.png)
+  ![1538833796822](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexopicture/1538833796822.png)
 
   > ~~真的不明白为什么在Hexo上相对链接绝对链接不能兼容使用，像linux一样啊~~
 
@@ -95,6 +95,6 @@ date: 2018-10-06 21:13:59
 
 办法很笨，就是每次写完博客之后把所有的图片链接前面加上`/post`路径就能保证生成的网页中图片链接正常引用了！
 
-![1538834897233](http://blog.janking.cn/post/hexopicture/1538834897233.png)
+![1538834897233](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexopicture/1538834897233.png)
 
 <!-- more --> 

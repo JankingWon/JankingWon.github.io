@@ -24,51 +24,51 @@ date: 2019-01-15 02:01:54
 
 - 打开[VMWare](https://www.vmware.com/)，点击新建虚拟机
 
-![1547490437732](http://blog.janking.cn/post/linux1/1547490437732.png)
+![1547490437732](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547490437732.png)
 
 - 选择下载的镜像位置
 
-![1547489329469](http://blog.janking.cn/post/linux1/1547489329469.png)
+![1547489329469](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547489329469.png)
 
 - 选择虚拟机文件存放的位置
 
-![1547490415647](http://blog.janking.cn/post/linux1/1547490415647.png)
+![1547490415647](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547490415647.png)
 
 - 一直按照默认设置点击下一步，看到安装的界面出来，选择`Install CentOS 7`
 
-![1547489436887](http://blog.janking.cn/post/linux1/1547489436887.png)
+![1547489436887](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547489436887.png)
 
 - 然后输入Enter键
 
-![1547490524816](http://blog.janking.cn/post/linux1/1547490524816.png)
+![1547490524816](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547490524816.png)
 
 - 出来了图形化的安装界面
 
 - 选择语言（建议选择英语）
 
-![1547490630576](http://blog.janking.cn/post/linux1/1547490630576.png)
+![1547490630576](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547490630576.png)
 
 - 这时候发现安装不了，因为需要把**带警告标志的设置**重新设置一遍
 
-![1547490747592](http://blog.janking.cn/post/linux1/1547490747592.png)
+![1547490747592](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547490747592.png)
 
 - 只需要点击左上角的`Done`就好了，一般都是默认设置好
 
-![1547490843016](http://blog.janking.cn/post/linux1/1547490843016.png)
+![1547490843016](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547490843016.png)
 
 - 可以点击`Begin Installation`开始安装了
 
-![1547490944322](http://blog.janking.cn/post/linux1/1547490944322.png)
+![1547490944322](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547490944322.png)
 
 - 还需要设置ROOT用户的密码以及新建一个正常使用的用户
 
   > 其实可以不用创建新用户，设置了密码之后右边的警告就消失了，但是最好还是要一个一般的用户，不然一直使用root用户容易造成不可恢复的错误
 
-![1547490997048](http://blog.janking.cn/post/linux1/1547490997048.png)
+![1547490997048](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547490997048.png)
 
 下面的进度条走完之后，点击`Reboot`重启虚拟机
 
-![1547492257932](http://blog.janking.cn/post/linux1/1547492257932.png)
+![1547492257932](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547492257932.png)
 
 ## 基本配置
 
@@ -78,11 +78,11 @@ date: 2019-01-15 02:01:54
 
 可以输入之前新建的用户，也可以输入`root`
 
-![1547492492612](http://blog.janking.cn/post/linux1/1547492492612.png)
+![1547492492612](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547492492612.png)
 
 输入密码之后就进入到了主界面！
 
-![1547492670626](http://blog.janking.cn/post/linux1/1547492670626.png)
+![1547492670626](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547492670626.png)
 
 没错，这就是`CentOS`的主界面，这并不是`Windows`启动之前的那种选项，而是已经完全启动了这个系统！
 
@@ -92,11 +92,11 @@ date: 2019-01-15 02:01:54
 
 首先**右击**点击右下角
 
-![1547491764006](http://blog.janking.cn/post/linux1/1547491764006.png)
+![1547491764006](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547491764006.png)
 
 设置成`NAT`模式
 
-![1547491841571](http://blog.janking.cn/post/linux1/1547491841571.png)
+![1547491841571](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547491841571.png)
 
 然后在`Windows`主机的`Power Shell`（或者`Cmd`) 中输入
 
@@ -104,9 +104,9 @@ date: 2019-01-15 02:01:54
 ipconfig
 ```
 
-![1547491906629](http://blog.janking.cn/post/linux1/1547491906629.png)
+![1547491906629](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547491906629.png)
 
-![1547491967822](http://blog.janking.cn/post/linux1/1547491967822.png)
+![1547491967822](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547491967822.png)
 
 记下`VMnet8`的`IPv4`地址
 
@@ -114,15 +114,15 @@ ipconfig
 
 打开编辑->虚拟化网络编辑器
 
-![1547496193357](http://blog.janking.cn/post/linux1/1547496193357.png)
+![1547496193357](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547496193357.png)
 
 选择NAT->更改设置
 
-![1547496254429](http://blog.janking.cn/post/linux1/1547496254429.png)
+![1547496254429](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547496254429.png)
 
 选择NAT模式->NAT设置
 
-![1547496316450](http://blog.janking.cn/post/linux1/1547496316450.png)
+![1547496316450](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547496316450.png)
 
 记录下网关`IP`
 
@@ -132,7 +132,7 @@ ipconfig
 192.168.171.2
 ```
 
-![1547499372712](http://blog.janking.cn/post/linux1/1547499372712.png)
+![1547499372712](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547499372712.png)
 
 ### 设置IP
 
@@ -144,11 +144,11 @@ nmtui
 
 选择编辑网络
 
-![1547491611588](http://blog.janking.cn/post/linux1/1547491611588.png)
+![1547491611588](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547491611588.png)
 
 选择唯一的一个以太网卡`ens33`
 
-![1547491649244](http://blog.janking.cn/post/linux1/1547491649244.png)
+![1547491649244](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547491649244.png)
 
 - 设置配置为`Manual`
 
@@ -170,13 +170,13 @@ nmtui
 
   [选择一个可用的公共DNS](https://www.zhihu.com/question/32229915)
 
-![](http://blog.janking.cn/post/linux1/1547499079705.png)
+![](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547499079705.png)
 
 ### 激活网卡
 
 设置之后返回选择`Activate a connection`
 
-![1547492337404](http://blog.janking.cn/post/linux1/1547492337404.png)
+![1547492337404](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547492337404.png)
 
 按右键选择右边的`Activate`
 
@@ -184,7 +184,7 @@ nmtui
 >
 > 如果显示的是Activate，就是还没有激活
 
-![1547492369368](http://blog.janking.cn/post/linux1/1547492369368.png)
+![1547492369368](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547492369368.png)
 
 > 即使网卡已经激活了，每次设置完网卡的信息
 >
@@ -200,7 +200,7 @@ ip addr
 
 确认`ip`已经配置成功
 
-![1547492805138](http://blog.janking.cn/post/linux1/1547492805138.png)
+![1547492805138](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547492805138.png)
 
 输入
 
@@ -210,11 +210,11 @@ ping baidu.com
 
 出现下面，说明网络连通
 
-![1547496096481](http://blog.janking.cn/post/linux1/1547496096481.png)
+![1547496096481](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547496096481.png)
 
 如果出现这种情况
 
-![1547492899895](http://blog.janking.cn/post/linux1/1547492899895.png)
+![1547492899895](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linux1/1547492899895.png)
 
 说明需要重新配置，一般是DNS错误或者网关错误
 

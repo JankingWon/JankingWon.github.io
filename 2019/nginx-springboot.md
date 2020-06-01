@@ -285,6 +285,6 @@ sudo systemctl restart nginx
 
 ## 效果
 
-![1561444559684](https://blog.janking.cn/post/nginx-springboot/1561444559684.png)
+![1561444559684](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/nginx-springboot/1561444559684.png)
 
-![1561444619964](https://blog.janking.cn/post/nginx-springboot/1561444619964.png)
+![1561444619964](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/nginx-springboot/1561444619964.png)

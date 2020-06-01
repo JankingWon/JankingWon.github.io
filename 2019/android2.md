@@ -23,11 +23,11 @@ date: 2018-09-28 00:12:37
 
 - 1.首先要知道在哪里添加事件代码
 
-![1538462162249](https://blog.janking.cn/post/android2/1538462162249.png)
+![1538462162249](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android2/1538462162249.png)
 
 - 2.还需要分析一下这个``java``文件的结构
 
-![1538462563325](https://blog.janking.cn/post/android2/1538462563325.png)
+![1538462563325](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android2/1538462563325.png)
 
 在`OnCreate`方法里面创建了一个`savedInstanceState`，还把它的`View`设置为上次的布局`activity_main`，这都不重要，总是，把填写的事件应该放在`onCreate`里面，不然就无法被调用，如果觉得放的太乱了，也可以新建一个自己的事件方法，然后在`onCreate`里面调用这个方法，**记得要最后调用**
 
@@ -69,7 +69,7 @@ if(btn != null){
 
 还有一种方式是在xml里添加按钮的`onClick`属性，然后指向自己写的`onClick`方法（当然名称可以变），如下图
 
-![1538463462290](https://blog.janking.cn/post/android2/1538463462290.png)
+![1538463462290](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android2/1538463462290.png)
 
 ## 如何弹出`Toast`信息
 

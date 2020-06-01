@@ -18,7 +18,7 @@ date: 2019-05-16 20:34:55
 
 > 放这个图着实有点打广告的嫌疑，但是站在个人角度确实挺优惠
 
-![1558006002072](https://blog.janking.cn/post/aliyun-email/1558006002072.png)
+![1558006002072](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1558006002072.png)
 
 因为使用大企业已经成熟的邮件推送服务，稳定性肯定不用担心，而且听说遇到问题还可以咨询技术顾问，今天我就收到了阿里云客服的电话问使用情况并告知有技术问题可以点击右上角咨询，服务还是蛮棒的！
 
@@ -51,7 +51,7 @@ robin.ns.cloudflare.com
 
 > 当然也可以不设置DNS解析到其它站点，`namesilo`就可以，但是生效比较慢，操作方法为点击下图中的`DNS Records`
 
-![1558007980809](https://blog.janking.cn/post/aliyun-email/1558007980809.png)
+![1558007980809](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1558007980809.png)
 
 现在来修改`DNS`到阿里云
 
@@ -61,31 +61,31 @@ robin.ns.cloudflare.com
 
 > 它提醒不要用企业邮箱的域名，可能会导致企业邮箱收件异常
 
-![1558008506058](https://blog.janking.cn/post/aliyun-email/1558008506058.png)
+![1558008506058](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1558008506058.png)
 
 然后点击**配置**，它会提示你需要添加哪些`DNS`记录，必要的这三条就好了，第四条跟踪邮件需要备案
 
 如果不会配置`DNS`，可以点击它的**示例**
 
-![1558008576027](https://blog.janking.cn/post/aliyun-email/1558008576027.png)
+![1558008576027](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1558008576027.png)
 
 我在`CloudFlare`的配置如下
 
-![1558008867957](https://blog.janking.cn/post/aliyun-email/1558008867957.png)
+![1558008867957](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1558008867957.png)
 
-![1558008975261](https://blog.janking.cn/post/aliyun-email/1558008975261.png)
+![1558008975261](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1558008975261.png)
 
-![1558009112933](https://blog.janking.cn/post/aliyun-email/1558009112933.png)
+![1558009112933](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1558009112933.png)
 
 这是第四条记录，非必要，有黄色云朵表示开启`CDN`，因为在海外其实会比较慢，推荐关闭
 
-![1558009198865](https://blog.janking.cn/post/aliyun-email/1558009198865.png)
+![1558009198865](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1558009198865.png)
 
 等一会儿，手动点击发信域名的**验证**，如果状态变为
 
 **可使用-未备案** 或 **可使用-未验证CName** 或 **验证通过**表示可以发送邮件了
 
-![1558009803023](https://blog.janking.cn/post/aliyun-email/1558009803023.png)
+![1558009803023](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1558009803023.png)
 
 ## 添加发件地址
 
@@ -101,7 +101,7 @@ robin.ns.cloudflare.com
 >
 > 其实在发送的时候都是一样的，我还以为触发邮件可以自定义触发的条件呢，找了半天也没找到。。。。。。
 
-![1558009873331](https://blog.janking.cn/post/aliyun-email/1558009873331.png)
+![1558009873331](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1558009873331.png)
 
 如果邮件的状态变为**正常**后，表示可以发件了
 
@@ -120,15 +120,15 @@ robin.ns.cloudflare.com
 > - 比如在阿里云开通了很多付费服务都需要`accesskey`验证，如果使用主账户的`accesskey`不小心泄露了，那么所有的付费服务都被泄露了，可能带来很大的财产损失和信息丢失
 > - 如果使用子用户就可以动态控制每个用户的权限，比如a用户只有发短息的权限，再不济泄露了也不会影响其他的服务，将损失降为最小
 
-![1557996822905](https://blog.janking.cn/post/aliyun-email/1557996822905.png)
+![1557996822905](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1557996822905.png)
 
 选择**用户->新建用户**，可以看到我已经建立了两个用户分别用于短信和邮件服务
 
-![1557997147010](https://blog.janking.cn/post/aliyun-email/1557997147010.png)
+![1557997147010](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1557997147010.png)
 
 写好**登录名称，显示名称，勾选编程访问**就好了，如果是控制台登录的话其实就相当于一个阿里云账户可以在网站上登录，这个暂时不需要
 
-![1557997237018](https://blog.janking.cn/post/aliyun-email/1557997237018.png)
+![1557997237018](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1557997237018.png)
 
 下图中的`AccessKeyID`和`AccessKeySceret`就是编程需要的参数了
 
@@ -138,13 +138,13 @@ robin.ns.cloudflare.com
 
 然后再点击**添加权限**
 
-![1557997601670](https://blog.janking.cn/post/aliyun-email/1557997601670.png)
+![1557997601670](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1557997601670.png)
 
 对于邮件推送
 
 输入`mail`进行搜索，选择`AliyunDirectMailAccess` ，点击确定
 
-![1557997917185](https://blog.janking.cn/post/aliyun-email/1557997917185.png)
+![1557997917185](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1557997917185.png)
 
 
 
@@ -195,7 +195,7 @@ robin.ns.cloudflare.com
 </dependency>
 ```
 
-![1558011473732](https://blog.janking.cn/post/aliyun-email/1558011473732.png)
+![1558011473732](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1558011473732.png)
 
 ### 完整代码
 
@@ -244,7 +244,7 @@ public void sample() {
 
 可以看到，邮件推送服务没有使用模板，所有内容都是在`setHtmlBody`中传递，我测试了一下，收到的邮件成功地进入了垃圾箱
 
-![1558012047011](https://blog.janking.cn/post/aliyun-email/1558012047011.png)
+![1558012047011](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1558012047011.png)
 
 邮件为什么会进入垃圾箱呢？
 
@@ -261,11 +261,11 @@ public void sample() {
 
 在`resources/static`里写上两个`html`文件作为邮件的模板，一个用于用户注册，一个用于用户找回密码
 
-![1558012323081](https://blog.janking.cn/post/aliyun-email/1558012323081.png)
+![1558012323081](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1558012323081.png)
 
 要注意不要写死内容，要留一些变量
 
-![1558012390942](https://blog.janking.cn/post/aliyun-email/1558012390942.png)
+![1558012390942](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1558012390942.png)
 
 那么怎么使用它呢?
 
@@ -309,7 +309,7 @@ request.setHtmlBody(htmlBody);
 
 ## 密钥安全保障
 
-> 这个在[阿里云短信服务](https://blog.janking.cn/post/aliyun-sms.html)里已经提到过
+> 这个在[阿里云短信服务](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms.html)里已经提到过
 >
 > 所以直接把内容复制过来了，操作是一样的，就是把邮箱账号的密钥保存到文件里再读取
 
@@ -317,13 +317,13 @@ request.setHtmlBody(htmlBody);
 
 在`resources`包里添加包`privateKey`
 
-![1557999887278](https://blog.janking.cn/post/aliyun-email/1557999887278.png)
+![1557999887278](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1557999887278.png)
 
 在这个包里新建`SMSKey.txt`存储密钥
 
 写上两行数据，一行是`ID`一行是`secret`
 
-![1558000026585](https://blog.janking.cn/post/aliyun-email/1558000026585.png)
+![1558000026585](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1558000026585.png)
 
 修改代码，添加两个私有变量`accessKeyId`和`secret`，并且在静态代码块里把它们赋值为`txt`中的值
 
@@ -376,6 +376,6 @@ SMSKey.txt
 
 ## 效果
 
-![1561445011727](https://blog.janking.cn/post/aliyun-email/1561445011727.png)
+![1561445011727](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1561445011727.png)
 
-![1561445045042](https://blog.janking.cn/post/aliyun-email/1561445045042.png)
+![1561445045042](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email/1561445045042.png)

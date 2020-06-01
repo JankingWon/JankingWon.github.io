@@ -26,7 +26,7 @@ date: 2018-12-08 17:01:25
 
 ## 效果
 
-![效果图](https://blog.janking.cn/post/android10/gif5.gif)
+![效果图](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android10/gif5.gif)
 
 ## 添加依赖
 
@@ -348,7 +348,7 @@ mCompositeDisposable.add(disposableObserver);
 
 ### 布局文件`recycler_item.xml`
 
-![1544334288002](https://blog.janking.cn/post/android10/1544334288002.png)
+![1544334288002](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android10/1544334288002.png)
 
 布局中使用了`cardview`，上面是一个`ImageView`（用来显示视频封面）和一个`Progressbar`（显示加载进度），但是此时`ImageView`是隐藏的（`visibility = “gone”`)，
 

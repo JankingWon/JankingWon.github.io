@@ -126,7 +126,7 @@ implementation 'com.android.support:recyclerview-v7:28.0.0'
 
 应该是这个样子
 
-![1539499377087](https://blog.janking.cn/post/android3/1539499377087.png)
+![1539499377087](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android3/1539499377087.png)
 
 在`java/com.example.yourname`，比如我的是`java/com.janking.sysuhealth`
 
@@ -384,7 +384,7 @@ private MyAdapter mAdapter;
 
 不过还没有没有添加`FloatingActionBar`
 
-![1539495186387](https://blog.janking.cn/post/android3/1539495186387.png)
+![1539495186387](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android3/1539495186387.png)
 
 ------
 
@@ -528,7 +528,7 @@ protected void onCreate(Bundle savedInstanceState)
 
 差不多就是这个样子啦
 
-![1539495791127](https://blog.janking.cn/post/android3/1539495791127.png)
+![1539495791127](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android3/1539495791127.png)
 
 ## FloatingActionBar
 
@@ -891,17 +891,17 @@ implementation 'com.android.support:support-core-utils:28.0.0'
 
 我也不明白为什么它们为什么不能独自完成所有动画，看了下`Github`源码，其实感觉这个`Animator`功能都实现了，不过好在它们**不冲突**，所以我干脆两个**都加上了**
 
-![1539500429315](https://blog.janking.cn/post/android3/1539500429315.png)
+![1539500429315](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android3/1539500429315.png)
 
 下面是动画效果：
 
-![recyclerlist](https://blog.janking.cn/post/android3/recyclerlist.gif)
+![recyclerlist](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android3/recyclerlist.gif)
 
 [该动画源码GitHub地址](https://github.com/wasabeef/recyclerview-animators)
 
 整个项目效果图
 
-![final](https://blog.janking.cn/post/android3/final.gif)
+![final](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android3/final.gif)
 
 ------
 
@@ -933,7 +933,7 @@ implementation 'com.android.support:support-core-utils:28.0.0'
 
 在`layout`文件里找到需要改变布局宽度或者高度的控件添加`id`，我这里是想调整一整个`RelativeLayout`，这里的高度我是随便设置的，待会就是要改变它
 
-![1539621188043](https://blog.janking.cn/post/android3/1539621188043.png)
+![1539621188043](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android3/1539621188043.png)
 
 在java代码里添加下列代码（如果是在`Activity`里最好写在`Oncreate()`里面）
 
@@ -1016,7 +1016,7 @@ app:layout_constraintStart_toEndOf="@id/rv_icon"/>
 
 **然后发现在RecyclerView中正常，但是ListView中不正常**（文字不居中）
 
-![](https://blog.janking.cn/post/android3/clip_image001-1539502637434.png)
+![](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android3/clip_image001-1539502637434.png)
 
 改成这样才行
 

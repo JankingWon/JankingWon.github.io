@@ -37,7 +37,7 @@ date: 2019-05-16 14:35:41
 
 > 而且不管使用什么SDK都要实名认证，身份证照片啊，手持身份证照片啊，说实话把这些信息给这些小企业有点信不过
 
-![1557992042904](https://blog.janking.cn/post/aliyun-sms/1557992042904.png)
+![1557992042904](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1557992042904.png)
 
 开始准备看看他们提供的`Android`源码，你不也是调用`API`去发送短信吗，那我就把这个接口给 ~~偷过来~~ 窃过来不就可以了
 
@@ -45,7 +45,7 @@ date: 2019-05-16 14:35:41
 
 > 如果真的不想花钱的话，可以找一台手机（安卓或IOS）使用它们的SDK，然后从网站上去唤醒这个手机发送验证码的功能，间接使用，当然速度会很慢啊，手机一直联网可能会断网啊，增加开发手机端的代码量啊很多缺点，但是不要钱也是很香的
 
-![1557992497442](https://blog.janking.cn/post/aliyun-sms/1557992497442.png)
+![1557992497442](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1557992497442.png)
 
 还是决定老老实实用付费的吧
 
@@ -61,11 +61,11 @@ date: 2019-05-16 14:35:41
 
 定价如下，可以选择套餐包或者预付费，不过套餐是`5000`条起卖`225`元（emmmm对于我们这种蚊子型网站有点浪费啊）所以还是选择预付费吧，用多少付多少
 
-![1557993109520](https://blog.janking.cn/post/aliyun-sms/1557993109520.png)
+![1557993109520](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1557993109520.png)
 
 而且新开通的用户还会`送100条短信`，估计是考虑到测试的需要
 
-![1557994534479](https://blog.janking.cn/post/aliyun-sms/1557994534479.png)
+![1557994534479](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1557994534479.png)
 
 [开通链接](<https://www.aliyun.com/product/sms?spm=a2c4g.11186623.cloudEssentials.54.32ae18b5VwaZpN>)
 
@@ -76,23 +76,23 @@ date: 2019-05-16 14:35:41
 - 签名就是【】框里的东西
 - 模板就是【】框后面的内容，可以有变量
 
-![1557995229495](https://blog.janking.cn/post/aliyun-sms/1557995229495.png)
+![1557995229495](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1557995229495.png)
 
 ## 添加签名
 
 然后进入**控制台->短信服务->国内消息->添加签名**，可以看到我已经添加了一条签名
 
-![1557994815227](https://blog.janking.cn/post/aliyun-sms/1557994815227.png)
+![1557994815227](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1557994815227.png)
 
 签名填写**服务的名称**，场景选择**验证码**（通用类型需要验证很多东西），申请说明是给审核人员看的，一般两小时会完成审核
 
-![1557994962200](https://blog.janking.cn/post/aliyun-sms/1557994962200.png)
+![1557994962200](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1557994962200.png)
 
 ## 添加模板
 
 选择**模板管理->添加模板**
 
-![1557995519506](https://blog.janking.cn/post/aliyun-sms/1557995519506.png)
+![1557995519506](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1557995519506.png)
 
 选择验证码
 
@@ -102,7 +102,7 @@ date: 2019-05-16 14:35:41
 
 还有申请说明
 
-![1557995630789](https://blog.janking.cn/post/aliyun-sms/1557995630789.png)
+![1557995630789](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1557995630789.png)
 
 ## 测试发送
 
@@ -112,7 +112,7 @@ date: 2019-05-16 14:35:41
 
 另外这个查看API Demo会提供各种代码调用API的示例，方便整合进自己的服务中，后面还会用到
 
-![1557996518909](https://blog.janking.cn/post/aliyun-sms/1557996518909.png)
+![1557996518909](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1557996518909.png)
 
 
 
@@ -131,15 +131,15 @@ date: 2019-05-16 14:35:41
 > - 比如在阿里云开通了很多付费服务都需要`accesskey`验证，如果使用主账户的`accesskey`不小心泄露了，那么所有的付费服务都被泄露了，可能带来很大的财产损失和信息丢失
 > - 如果使用子用户就可以动态控制每个用户的权限，比如a用户只有发短息的权限，再不济泄露了也不会影响其他的服务，将损失降为最小
 
-![1557996822905](https://blog.janking.cn/post/aliyun-sms/1557996822905.png)
+![1557996822905](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1557996822905.png)
 
 选择**用户->新建用户**，可以看到我已经建立了两个用户分别用于短信和邮件服务
 
-![1557997147010](https://blog.janking.cn/post/aliyun-sms/1557997147010.png)
+![1557997147010](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1557997147010.png)
 
 写好**登录名称，显示名称，勾选编程访问**就好了，如果是控制台登录的话其实就相当于一个阿里云账户可以在网站上登录，这个暂时不需要
 
-![1557997237018](https://blog.janking.cn/post/aliyun-sms/1557997237018.png)
+![1557997237018](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1557997237018.png)
 
 下图中的`AccessKeyID`和`AccessKeySceret`就是编程需要的参数了
 
@@ -149,23 +149,23 @@ date: 2019-05-16 14:35:41
 
 然后再点击**添加权限**
 
-![1557997601670](https://blog.janking.cn/post/aliyun-sms/1557997601670.png)
+![1557997601670](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1557997601670.png)
 
 对于短信推送
 
 输入`sms`进行搜索，选择`AliyunDysmsFullAccess` ，点击确定
 
-![1557997793072](https://blog.janking.cn/post/aliyun-sms/1557997793072.png)
+![1557997793072](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1557997793072.png)
 
 ## 使用代码调用短信服务
 
 回到**控制台->短信服务->快速学习**，点击查看`API DEMO`
 
-![1557998341688](https://blog.janking.cn/post/aliyun-sms/1557998341688.png)
+![1557998341688](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1557998341688.png)
 
 在右侧选择需要的语言，将代码全部复制下来
 
-![1557998393213](https://blog.janking.cn/post/aliyun-sms/1557998393213.png)
+![1557998393213](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1557998393213.png)
 
 ### 添加依赖
 
@@ -185,7 +185,7 @@ date: 2019-05-16 14:35:41
 </dependency>
 ```
 
-![1557998592992](https://blog.janking.cn/post/aliyun-sms/1557998592992.png)
+![1557998592992](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1557998592992.png)
 
 ### 完整代码
 
@@ -225,13 +225,13 @@ try {
 
 在`resources`包里添加包`privateKey`
 
-![1557999887278](https://blog.janking.cn/post/aliyun-sms/1557999887278.png)
+![1557999887278](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1557999887278.png)
 
 在这个包里新建`SMSKey.txt`存储密钥
 
 写上两行数据，一行是`ID`一行是`secret`
 
-![1558000026585](https://blog.janking.cn/post/aliyun-sms/1558000026585.png)
+![1558000026585](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/1558000026585.png)
 
 修改代码，添加两个私有变量`accessKeyId`和`secret`，并且在静态代码块里把它们赋值为`txt`中的值
 
@@ -287,5 +287,5 @@ SMSKey.txt
 
 ## 效果
 
-![img](https://blog.janking.cn/post/aliyun-sms/B89C2157ADE4FA626CAF22172C2F4F82.jpg)
+![img](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-sms/B89C2157ADE4FA626CAF22172C2F4F82.jpg)
 

@@ -29,9 +29,9 @@ date: 2018-12-01 21:38:00
 
 ### 基本流程
 
-![1543732734508](https://blog.janking.cn/post/MD5-JAVA/1543732734508.png)
+![1543732734508](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/MD5-JAVA/1543732734508.png)
 
-![1543733052946](https://blog.janking.cn/post/MD5-JAVA/1543733052946.png)
+![1543733052946](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/MD5-JAVA/1543733052946.png)
 
 ###  填充padding 
 
@@ -50,7 +50,7 @@ date: 2018-12-01 21:38:00
 
 ### 压缩函数
 
-![1543733261546](https://blog.janking.cn/post/MD5-JAVA/1543733261546.png)
+![1543733261546](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/MD5-JAVA/1543733261546.png)
 
 每轮循环中的一次迭代运算逻辑 
 
@@ -352,11 +352,11 @@ public class MD5 {
 >
 >  得到编码结果为：3ED9E5F6855DBCDBCD95AC6C4FE0C0A5
 >
->  ![1543732278814](https://blog.janking.cn/post/MD5-JAVA/1543732278814.png)
+>  ![1543732278814](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/MD5-JAVA/1543732278814.png)
 >
 >  用[站长之家](http://tool.chinaz.com/tools/md5.aspx)的工具验证，结果正确
 >
->  ![1543732370194](https://blog.janking.cn/post/MD5-JAVA/1543732370194.png)
+>  ![1543732370194](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/MD5-JAVA/1543732370194.png)
 >
 >
 

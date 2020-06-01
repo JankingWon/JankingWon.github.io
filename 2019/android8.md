@@ -24,11 +24,11 @@ date: 2018-11-27 12:35:19
 
 ## 效果预览
 
-![gif5新文件](https://blog.janking.cn/post/android8/gif5新文件.gif)
+![gif5新文件](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android8/gif5新文件.gif)
 
 ## 布局
 
-![1543298569700](https://blog.janking.cn/post/android8/1543298569700.png)
+![1543298569700](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android8/1543298569700.png)
 
 ### 进度条的布局
 
@@ -44,7 +44,7 @@ date: 2018-11-27 12:35:19
 
 这就利用了`LinearLayout`的特点，只需设置中间进度条的`layout_weight = 1`就好了，它就会自动延伸到右边最远处（不占据别的控件）
 
-![1543298911582](https://blog.janking.cn/post/android8/1543298911582.png)
+![1543298911582](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android8/1543298911582.png)
 
 ### 圆形ImageView
 
@@ -255,7 +255,7 @@ bindService(intent, sc, BIND_AUTO_CREATE);
 
 但是在`Android6.0`之后，我们只在`AndroidManifest.xml`文件中配置是不够的，还需要在`Java`代码中进行动态获取权限。
 
-![](https://blog.janking.cn/post/android8/clip_image001-1543301104114.png)
+![](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android8/clip_image001-1543301104114.png)
 
 #### 静态添加
 

@@ -13,7 +13,7 @@ date: 2018-12-16 16:33:18
 
 <!-- more -->
 
-![1544949349993](http://blog.janking.cn/post/swapi/1544949349993.png)
+![1544949349993](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/swapi/1544949349993.png)
 
 ## 建立数据库
 调用`github.com/boltdb/bolt`的`Open`函数创建一个容器
@@ -132,5 +132,5 @@ const (
 
 ## 后端测试
 
-![1544953263611](http://blog.janking.cn/post/swapi/1544953263611.png)
+![1544953263611](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/swapi/1544953263611.png)
 

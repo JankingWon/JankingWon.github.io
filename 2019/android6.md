@@ -22,7 +22,7 @@ date: 2018-10-31 21:56:39
 
 ## 实现效果
 
-![GIF](https://blog.janking.cn/post/android6/GIF.gif)
+![GIF](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android6/GIF.gif)
 
 
 
@@ -32,7 +32,7 @@ date: 2018-10-31 21:56:39
 
 ### 先来创建一个简单的设置密码的页面
 
-![1540994988442](https://blog.janking.cn/post/android6/1540994988442.png)
+![1540994988442](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android6/1540994988442.png)
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -173,7 +173,7 @@ button_ok.setOnClickListener(new View.OnClickListener() {
 
 可以发现，确实存进去了密码，而且还存进去了一个关键字为`STATUS`的东西，这个是用来辨别是否已经设置了密码的
 
-![1540996583921](https://blog.janking.cn/post/android6/1540996583921.png)
+![1540996583921](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android6/1540996583921.png)
 
 为了利用好这个`STATUS`字段，在`MainActivity`的`onCreate`方法里添加
 
@@ -203,7 +203,7 @@ if(sp != null){
 
 ### 布局
 
-![1540997508834](https://blog.janking.cn/post/android6/1540997508834.png)
+![1540997508834](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android6/1540997508834.png)
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -316,7 +316,7 @@ bt_load.setOnClickListener(new View.OnClickListener() {
 
 经检验，文件内容确实写了进去（内容很乱，是我写的，而不是乱码……)，文件存放在`files`文件夹中
 
-![1540997910417](https://blog.janking.cn/post/android6/1540997910417.png)
+![1540997910417](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android6/1540997910417.png)
 
 
 
@@ -337,7 +337,7 @@ protected void onPause() {
 
 `android:noHistory="true"`
 
-![1540998127063](https://blog.janking.cn/post/android6/1540998127063.png)
+![1540998127063](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android6/1540998127063.png)
 
 ##  External Storage文件的操作
 
@@ -347,7 +347,7 @@ protected void onPause() {
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 ```
 
-![1541001942041](https://blog.janking.cn/post/android6/1541001942041.png)
+![1541001942041](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android6/1541001942041.png)
 
 进入`sdk`目录下的`tools`文件夹，输入下列命令
 
@@ -355,7 +355,7 @@ protected void onPause() {
 
 即可创建一个`128M`大小的命名为`sdcard`的映像文件，它可以挂载到虚拟机上作为`sd`卡目录
 
-![1541001233162](https://blog.janking.cn/post/android6/1541001233162.png)
+![1541001233162](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android6/1541001233162.png)
 
 添加一个图片文件到`mipmap`中，这里我加了我的头像`face.jpg`
 
@@ -384,6 +384,6 @@ void createExternalStoragePrivateFile(){
 
 应用启动到`SecondActivity`中时，查看文件确实存在
 
-![1541001890672](https://blog.janking.cn/post/android6/1541001890672.png)
+![1541001890672](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android6/1541001890672.png)
 
 <!-- more --> 

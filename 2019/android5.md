@@ -24,7 +24,7 @@ date: 2018-10-25 20:29:08
 
 
 
-![GIF](https://blog.janking.cn/post/android5/GIF-1540489328401.gif)
+![GIF](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android5/GIF-1540489328401.gif)
 
 <!-- more --> 
 
@@ -34,11 +34,11 @@ date: 2018-10-25 20:29:08
 
 自定义命名，我命名为`MyWidget`
 
-![1540470758342](https://blog.janking.cn/post/android5/1540470758342.png)
+![1540470758342](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android5/1540470758342.png)
 
 就会多出三个文件
 
-![1540470892309](https://blog.janking.cn/post/android5/1540470892309.png)
+![1540470892309](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android5/1540470892309.png)
 
 `my_widget_info.xml`这是小部件的一些属性设置
 
@@ -85,7 +85,7 @@ date: 2018-10-25 20:29:08
 
 下面就主要处理好`AppWidgetProvider`中的这些方法了
 
-![1540471542308](https://blog.janking.cn/post/android5/1540471542308.png)
+![1540471542308](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android5/1540471542308.png)
 
 ## 通过静态广播更新
 

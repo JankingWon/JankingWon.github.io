@@ -25,11 +25,11 @@ date: 2019-05-04 20:57:26
 
 ### MakeReservation
 
-![1557063199381](https://blog.janking.cn/post/swsad-hw9/1557063199381.png)
+![1557063199381](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/swsad-hw9/1557063199381.png)
 
 ### Payment
 
-![1557065284871](https://blog.janking.cn/post/swsad-hw9/1557065284871.png)
+![1557065284871](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/swsad-hw9/1557065284871.png)
 
 - User(ID,Name,Email,Phone,Gender)
 - Reservation(ID/Key,UserID/Fkey,HotelID/Fkey,Roomcount,StartTime,EndTime,TotalPrice)
@@ -45,4 +45,4 @@ date: 2019-05-04 20:57:26
 > - 建模要求： 参考练习不能提供足够信息帮助你对订单对象建模，请参考现在 定旅馆 的旅游网站，尽可能分析围绕订单发生的各种情况，直到订单通过销售事件（柜台销售）结束订单。
 >
 
-![1557066434457](https://blog.janking.cn/post/swsad-hw9/1557066434457.png)
+![1557066434457](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/swsad-hw9/1557066434457.png)

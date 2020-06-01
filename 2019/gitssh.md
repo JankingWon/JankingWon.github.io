@@ -66,11 +66,11 @@ The key's randomart image is:
 
 ### gitee添加公钥
 
-![1547799308535](http://blog.janking.cn/post/gitssh/1547799308535.png)
+![1547799308535](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/gitssh/1547799308535.png)
 
 ### github添加公钥
 
-![1547799405722](http://blog.janking.cn/post/gitssh/1547799405722.png)
+![1547799405722](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/gitssh/1547799405722.png)
 
 ## 启用私钥！
 

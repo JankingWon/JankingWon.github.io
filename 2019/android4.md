@@ -174,7 +174,7 @@ manager.notify(0,notification);
 
 一定要用**同一个**`CHANNEL_ID`,不然就会出现下列错误
 
-![1539870233846](https://blog.janking.cn/post/android4/1539870233846.png)
+![1539870233846](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android4/1539870233846.png)
 
 ------
 
@@ -218,7 +218,7 @@ registerReceiver(dynamicReceiver, dynamic_filter);    //注册自定义动态广
 
 这里发送广播的激发事件是点击了Detail中的收藏图标
 
-![1539869840890](https://blog.janking.cn/post/android4/1539869840890.png)
+![1539869840890](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android4/1539869840890.png)
 
 所以修改`collect.setOnClickListener`为
 
@@ -305,7 +305,7 @@ manager.notify(0,notification);
 E/ActivityThread: Activity com.janking.sysuhealth.Detail has leaked IntentReceiver com.janking.sysuhealth.DynamicReceiver@c408803 that was originally registered here. Are you missing a call to unregisterReceiver()?
 ```
 
-![1539871075001](https://blog.janking.cn/post/android4/1539871075001.png)
+![1539871075001](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android4/1539871075001.png)
 
 > **注意：**动态广播最好在`Activity` 的 `onResume()`注册、`onPause()`注销，当然我这里是在`Oncreate()`中注册的也行
 
@@ -411,7 +411,7 @@ public void addNewItem(Food f) {
 
 ## 效果：（AVD实在有点卡）
 
-![broadcast](https://blog.janking.cn/post/android4/broadcast.gif)
+![broadcast](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android4/broadcast.gif)
 
 
 

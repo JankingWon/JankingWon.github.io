@@ -22,35 +22,35 @@ date: 2018-10-21 17:45:36
 
 ### 加密过程
 
-![1541244158363](https://blog.janking.cn/post/DESAlgorithm/1541244158363.png)
+![1541244158363](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/DESAlgorithm/1541244158363.png)
 
-![1541244631502](https://blog.janking.cn/post/DESAlgorithm/1541244631502.png)
+![1541244631502](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/DESAlgorithm/1541244631502.png)
 
 #### 初始置换IP
 
-![1541244740744](https://blog.janking.cn/post/DESAlgorithm/1541244740744.png)
+![1541244740744](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/DESAlgorithm/1541244740744.png)
 
 #### 迭代T
 
-![1541245001052](https://blog.janking.cn/post/DESAlgorithm/1541245001052.png)
+![1541245001052](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/DESAlgorithm/1541245001052.png)
 
 ##### Feistel轮函数
 
-![1541245200505](https://blog.janking.cn/post/DESAlgorithm/1541245200505.png)
+![1541245200505](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/DESAlgorithm/1541245200505.png)
 
 ##### 子秘钥生成
 
-![1541245413226](https://blog.janking.cn/post/DESAlgorithm/1541245413226.png)
+![1541245413226](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/DESAlgorithm/1541245413226.png)
 
 #### 逆置换IP-1
 
-![1541245475171](https://blog.janking.cn/post/DESAlgorithm/1541245475171.png)
+![1541245475171](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/DESAlgorithm/1541245475171.png)
 
 
 
 ### 解密过程
 
-![1541244245356](https://blog.janking.cn/post/DESAlgorithm/1541244245356.png)
+![1541244245356](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/DESAlgorithm/1541244245356.png)
 
 
 
@@ -353,7 +353,7 @@ public StringBuffer[] getSubKey() {
 >
 > **解密部分**输入密文（这里直接用上面生成的密文，好对比结果），密钥（与上面同样的密钥），算法模式，应该输出同样的明文
 
-![1540126222637](https://blog.janking.cn/post/DESAlgorithm/1540126222637.png)
+![1540126222637](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/DESAlgorithm/1540126222637.png)
 
 **可以看到确实能够实现加密再解密得到原数据！**
 

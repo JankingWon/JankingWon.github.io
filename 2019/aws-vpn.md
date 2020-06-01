@@ -34,7 +34,7 @@ date: 2019-03-05 13:33:28
 
 银行卡很漂亮，就是容易刮花，现在已经面目全非了。
 
-![20190201_122652](https://blog.janking.cn/post/aws-vpn/20190201_122652.jpg)
+![20190201_122652](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/20190201_122652.jpg)
 
 > [知乎这篇文章有申请信用卡的详细介绍](https://zhuanlan.zhihu.com/p/26943964)
 
@@ -44,13 +44,13 @@ date: 2019-03-05 13:33:28
 
 里面没有钱，那就当银行卡用吧，可以绑定支付宝选择信用卡还款，这里我试了一块钱，接着又还了9块，毕竟要**够一美元**才行
 
-![qq_pic_merged_1553427559691](https://blog.janking.cn/post/aws-vpn/qq_pic_merged_1553427559691.jpg)
+![qq_pic_merged_1553427559691](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/qq_pic_merged_1553427559691.jpg)
 
 再去公众号【工行信用卡】查看就有额度了
 
 因为我已经扣了一美元，所以只有这么多，可以证明不充钱的时候银行卡确实一分钱都没有！
 
-![qq_pic_merged_1553427595838](https://blog.janking.cn/post/aws-vpn/qq_pic_merged_1553427595838.jpg)
+![qq_pic_merged_1553427595838](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/qq_pic_merged_1553427595838.jpg)
 
 
 
@@ -58,7 +58,7 @@ date: 2019-03-05 13:33:28
 
 然后我的邮箱收到一个邮件，原文是英文，用谷歌翻译之后是这样
 
-![1553427995805](https://blog.janking.cn/post/aws-vpn/1553427995805.png)
+![1553427995805](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553427995805.png)
 
 反正就是坏了，当时注册谷歌云也是这样，其实是里面**没有外汇！**
 
@@ -66,7 +66,7 @@ date: 2019-03-05 13:33:28
 
 好在亚马逊**支持银联！**
 
-![1553426886092](https://blog.janking.cn/post/aws-vpn/1553426886092.png)
+![1553426886092](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553426886092.png)
 
 然后就扣了一美元，开始一年撸羊毛之旅！
 
@@ -80,55 +80,55 @@ date: 2019-03-05 13:33:28
 
 **日本**
 
-![1553426521828](https://blog.janking.cn/post/aws-vpn/1553426521828.png)
+![1553426521828](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553426521828.png)
 
 **新加坡**
 
-![1553426488760](https://blog.janking.cn/post/aws-vpn/1553426488760.png)
+![1553426488760](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553426488760.png)
 
 
 
 最近突然发现，其实可以选择**中国香港**，不过默认禁用了，得点击**我的账户**手动启用！
 
-![1557808515719](https://blog.janking.cn/post/aws-vpn/1557808515719.png)
+![1557808515719](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1557808515719.png)
 
 ### 开始
 
 选择主机的区域是在账号界面的右上角
 
-![1553428485410](https://blog.janking.cn/post/aws-vpn/1553428485410.png)
+![1553428485410](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553428485410.png)
 
 选择启动实例
 
-![1553428581278](https://blog.janking.cn/post/aws-vpn/1553428581278.png)
+![1553428581278](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553428581278.png)
 
 选择系统映像，这里我选择的是`Ubuntu18.04`
 
 > 之前我选的是最上面的额Amazon Linux2，因为linux也不是非常懂，很多地方不像ubuntu也不像centos，资料还很少，最后还是重装了
 
-![1553428735389](https://blog.janking.cn/post/aws-vpn/1553428735389.png)
+![1553428735389](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553428735389.png)
 
 选择免费套餐的配置
 
 其实这里就可以点击**审核与启动**了，后面都是没有可选的空间，毕竟是免费套餐
 
-![1553429133323](https://blog.janking.cn/post/aws-vpn/1553429133323.png)
+![1553429133323](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553429133323.png)
 
 最后确认配置，修改一下**安全组**
 
-![1553429326243](https://blog.janking.cn/post/aws-vpn/1553429326243.png)
+![1553429326243](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553429326243.png)
 
 为了方便，都设置打开，因为可以通过系统内部的端口开关来控制，外部就不要干预了
 
-![1553429265086](https://blog.janking.cn/post/aws-vpn/1553429265086.png)
+![1553429265086](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553429265086.png)
 
 这里需要密钥对才能启动，新建一个密钥对，然后下载保存好
 
-![1553429393837](https://blog.janking.cn/post/aws-vpn/1553429393837.png)
+![1553429393837](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553429393837.png)
 
 等待启动
 
-![1553429435145](https://blog.janking.cn/post/aws-vpn/1553429435145.png)
+![1553429435145](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553429435145.png)
 
 ### 分配弹性IP
 
@@ -136,15 +136,15 @@ date: 2019-03-05 13:33:28
 
 因为如果没有弹性IP，VPS的IP可能会发生变化，以后连接需要就经常改配置很麻烦，如果有弹性IP就相当于永久的一个IP地址
 
-![1553429484257](https://blog.janking.cn/post/aws-vpn/1553429484257.png)
+![1553429484257](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553429484257.png)
 
 很快分配好之后，选择IP地址，右键选择关联地址
 
-![1553429582375](https://blog.janking.cn/post/aws-vpn/1553429582375.png)
+![1553429582375](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553429582375.png)
 
 选择之前的实例和IP，应该都只有一个选项
 
-![1553429639162](https://blog.janking.cn/post/aws-vpn/1553429639162.png)
+![1553429639162](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553429639162.png)
 
 > 注意，单独的弹性IP是不在免费套餐内的，所以需要及时绑定一个实例，如果只是分配了弹性IP，很久没有绑定实例，很可能要付费！
 
@@ -160,33 +160,33 @@ date: 2019-03-05 13:33:28
 
 可以使用`NotePad++`打开下载的`pem`文件
 
-![1553430343414](https://blog.janking.cn/post/aws-vpn/1553430343414.png)
+![1553430343414](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553430343414.png)
 
 复制之后，打开`Terminus`，添加`Keychain`
 
-![1553430392345](https://blog.janking.cn/post/aws-vpn/1553430392345.png)
+![1553430392345](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553430392345.png)
 
-![1553430443751](https://blog.janking.cn/post/aws-vpn/1553430443751.png)
+![1553430443751](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553430443751.png)
 
 添加私钥
 
 写一个`label`标识这个密钥，然后把复制的私钥粘贴在`Private Key`里
 
-![1553430485181](https://blog.janking.cn/post/aws-vpn/1553430485181.png)
+![1553430485181](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553430485181.png)
 
 接着回到`Terminus`主页
 
 点击`New Host`
 
-![1553430074978](https://blog.janking.cn/post/aws-vpn/1553430074978.png)
+![1553430074978](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553430074978.png)
 
 写好`Label`，服务器`IP`地址，并使用`SSH`，在下面的`key`选项中找到之前添加的`Key`
 
-![1553430592381](https://blog.janking.cn/post/aws-vpn/1553430592381.png)
+![1553430592381](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553430592381.png)
 
-![1553430677132](https://blog.janking.cn/post/aws-vpn/1553430677132.png)
+![1553430677132](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553430677132.png)
 
-![1553430663101](https://blog.janking.cn/post/aws-vpn/1553430663101.png)
+![1553430663101](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553430663101.png)
 
 点击`SAVE`，就添加好了这个`VPS`
 
@@ -194,19 +194,19 @@ date: 2019-03-05 13:33:28
 
 **默认用户名是`ubuntu`，没有密码**
 
-![1553430901972](https://blog.janking.cn/post/aws-vpn/1553430901972.png)
+![1553430901972](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553430901972.png)
 
 这是官方的连接说明
 
-![1553430888996](https://blog.janking.cn/post/aws-vpn/1553430888996.png)
+![1553430888996](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553430888996.png)
 
 弹出是否信任，点击`YES`
 
-![1553430956127](https://blog.janking.cn/post/aws-vpn/1553430956127.png)
+![1553430956127](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553430956127.png)
 
 然后就进入了服务器的命令行！成功！
 
-![1553431013456](https://blog.janking.cn/post/aws-vpn/1553431013456.png)
+![1553431013456](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553431013456.png)
 
 ## 安装代理服务
 
@@ -230,7 +230,7 @@ $sudo pip install git+https://github.com/shadowsocks/shadowsocks.git@master
 
 第二条命令会弹出确认提示，输入`Y`
 
-![1553431143002](https://blog.janking.cn/post/aws-vpn/1553431143002.png)
+![1553431143002](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553431143002.png)
 
 ### 配置
 
@@ -356,19 +356,19 @@ To                         Action      From
 
 - 先点击启动系统代理
 
-  ![1553431874077](https://blog.janking.cn/post/aws-vpn/1553431874077.png)
+  ![1553431874077](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553431874077.png)
 
 - 右键->服务器->编辑服务器
 
-![1553431973878](https://blog.janking.cn/post/aws-vpn/1553431973878.png)
+![1553431973878](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553431973878.png)
 
 - 填写下列四项，其实跟刚刚的配置文件一样的
 
-  ![1553432056286](https://blog.janking.cn/post/aws-vpn/1553432056286.png)
+  ![1553432056286](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553432056286.png)
 
 - 然后就可以右键->服务器->[选择自己的服务器]
 
-  ![1553432125369](https://blog.janking.cn/post/aws-vpn/1553432125369.png)
+  ![1553432125369](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553432125369.png)
 
 - 右键->系统代理模式->PAC模式
 
@@ -376,7 +376,7 @@ To                         Action      From
   >
   > 全局模式就是全部使用代理，即使上baidu.com也是通过非大陆的服务器中转，效率比较低，还浪费流量
 
-  ![1553432154835](https://blog.janking.cn/post/aws-vpn/1553432154835.png)
+  ![1553432154835](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553432154835.png)
 
 - 但是呢，直接这样子应该是没用，因为本地PAC列表没设置
 
@@ -386,11 +386,11 @@ To                         Action      From
 
   最好点击一下保护本地PAC
 
-  ![1553432409394](https://blog.janking.cn/post/aws-vpn/1553432409394.png)
+  ![1553432409394](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553432409394.png)
 
 成功！
 
-![1553432505203](https://blog.janking.cn/post/aws-vpn/1553432505203.png)
+![1553432505203](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553432505203.png)
 
 ## 安装加速器Google TCP BBR
 
@@ -423,7 +423,7 @@ tcp_bbr                20480  1
 
 可以在这个服务器体验一下不同地区的`VPS`，对比一下
 
-![1553432571976](https://blog.janking.cn/post/aws-vpn/1553432571976.png)
+![1553432571976](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553432571976.png)
 
 ## 其他
 
@@ -441,7 +441,7 @@ $wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh && sudo 
 
 安装完成后记得命令行中给的**面板地址，用户名，密码**
 
-![1553433127826](https://blog.janking.cn/post/aws-vpn/1553433127826.png)
+![1553433127826](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553433127826.png)
 
 如果猴急关了
 
@@ -463,7 +463,7 @@ $wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh && sudo 
 
 建议登录之后在设置中更改安全登录入口、用户名和密码
 
-![1553433495284](https://blog.janking.cn/post/aws-vpn/1553433495284.png)
+![1553433495284](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aws-vpn/1553433495284.png)
 
 ## 参考资料
 

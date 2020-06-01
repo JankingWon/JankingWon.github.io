@@ -22,7 +22,7 @@ date: 2018-12-03 18:59:52
 
 ## 效果
 
-![gif5新文件](https://blog.janking.cn/post/android8/gif5新文件.gif)
+![gif5新文件](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android8/gif5新文件.gif)
 
 ## RxJava简介
 
@@ -42,7 +42,7 @@ GitHub地址：
 
 ## 其它代码环境
 
-这里使用的是[Android手机应用开发（八） | 制作简单音乐播放器](https://blog.janking.cn/post/android8.html) 的大部分代码
+这里使用的是 Android手机应用开发（八） | 制作简单音乐播放 的大部分代码
 
 只是将更新UI的操作从`Handler`更改为`RxJava`
 

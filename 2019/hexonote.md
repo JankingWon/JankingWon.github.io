@@ -53,7 +53,7 @@ git clone https://github.com/theme-next/hexo-theme-next themes/next
 
 就可以生成一套图标（苹果手机桌面图标，网页图标，win磁贴图标等等）
 
-![1547669514508](http://blog.janking.cn/post/hexonote/1547669514508.png)
+![1547669514508](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexonote/1547669514508.png)
 
 下载之后放到`blog\source\my_images`文件夹中
 
@@ -377,13 +377,13 @@ note:
 - `flat`
 - `disable`
 
-![1547663317610](http://blog.janking.cn/post/hexonote/1547663317610.png)
+![1547663317610](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexonote/1547663317610.png)
 
-![1547663494704](http://blog.janking.cn/post/hexonote/1547663494704.png)
+![1547663494704](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexonote/1547663494704.png)
 
- ![1547663551300](http://blog.janking.cn/post/hexonote/1547663551300.png)
+ ![1547663551300](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexonote/1547663551300.png)
 
-![1547663610589](http://blog.janking.cn/post/hexonote/1547663610589.png)
+![1547663610589](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexonote/1547663610589.png)
 
 (哈哈，`disabled`就是没有)
 
@@ -391,7 +391,7 @@ note:
 
 对了，如果设置`icons`为`true`的话，就是会下面这个样子
 
-![1547663053078](http://blog.janking.cn/post/hexonote/1547663053078.png)
+![1547663053078](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexonote/1547663053078.png)
 
 ## 使用方法
 
@@ -410,7 +410,7 @@ note:
 - `warning`
 - `danger`
 
-![1547663961713](http://blog.janking.cn/post/hexonote/1547663961713.png)
+![1547663961713](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexonote/1547663961713.png)
 
 (图片来自官网介绍)
 
@@ -438,13 +438,13 @@ note:
 
 效果是
 
-![1547664665317](http://blog.janking.cn/post/hexonote/1547664665317.png)
+![1547664665317](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexonote/1547664665317.png)
 
 # 自定义文章摘要
 
 其实设置这个的目的只是因为我之前的首页文章摘要没有格式，如下图
 
-![1547664903317](http://blog.janking.cn/post/hexonote/1547664903317.png)
+![1547664903317](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexonote/1547664903317.png)
 
 **设置手动摘要**
 
@@ -460,11 +460,11 @@ note:
 
 （是用`typora`查看的）
 
-![1547d65029443](http://blog.janking.cn/post/hexonote/1547665029443.png)
+![1547d65029443](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexonote/1547665029443.png)
 
 **效果**
 
-![1547665194832](http://blog.janking.cn/post/hexonote/1547665194832.png)
+![1547665194832](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/hexonote/1547665194832.png)
 
 
 
@@ -826,11 +826,11 @@ $ npm install gulp-minify-css gulp-uglify gulp-htmlmin gulp-imagemin gulp-htmlcl
 
 ## 小插曲
 
- 发现了红色项 ![1547679295960](http://blog.janking.cn/post/linuxnote/1547679295960.png) 
+ 发现了红色项 ![1547679295960](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linuxnote/1547679295960.png) 
 
 应该是百度的什么东西 在本地的博客文件夹里搜索不到这个 `push.js` 文件
 
- ![1547679374656](http://blog.janking.cn/post/linuxnote/1547679374656.png)
+ ![1547679374656](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linuxnote/1547679374656.png)
 
  右键复制地址后，发现不是来自我的网站，而是 https://zz.bdstatic.com/linksubmit/push.js 但是点击不进去 搜索之后发现这是百度的域名，而且在做的好像是爬取数据（老本行） 但是为什么没加载出来呢？
 
@@ -838,7 +838,7 @@ $ npm install gulp-minify-css gulp-uglify gulp-htmlmin gulp-imagemin gulp-htmlcl
 
 右键 `AdBlock`，在此网站暂停就好了 （怪不得我的网站收录这么差） 
 
-![1547679564937](http://blog.janking.cn/post/linuxnote/1547679564937.png)
+![1547679564937](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/linuxnote/1547679564937.png)
 
 # 死亡警告
 

@@ -28,7 +28,7 @@ https://www.zhihu.com/question/51241293/answer/134845206
 
 - 如果还是想修改`User`下的用户名，在`Win10`下，最优雅正确的做法是这样滴（原谅我原装英文版的操作系统，看位置对应点吧）：打开设置（或控制面板）在帐户（也叫做用户帐户）中新建一个帐户，这个帐户必须是是本地帐户。新建时填写的用户名便是 `User` 目录下的显示名称（浏览器中点击图片看高清大图）。
 
-![](http://blog.janking.cn/post/modify-c-users/1.jpg)
+![](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/modify-c-users/1.jpg)
 
 
 
@@ -36,18 +36,18 @@ https://www.zhihu.com/question/51241293/answer/134845206
 
 
 
-![](http://blog.janking.cn/post/modify-c-users/2.jpg)
+![](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/modify-c-users/2.jpg)
 
 - Win10 2017年2月更新后，单纯的新建本地账户不会出现新文件夹，要先注销然后登陆那个本地账户才能出现！！！登陆之后User就有这个文件夹了，这个不要担心，先进行下一步：点最后一个菜单，将当前帐户（旧帐户）的自动同步设置开启！开启！开启（Win 8、8.1、10 都有此功能，而且默认的是开启的，**下面的图是 错！误！示！范！**）
 
-![](http://blog.janking.cn/post/modify-c-users/3.jpg)
+![](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/modify-c-users/3.jpg)
 
 
 
 - 当前帐户切换到本地。
 
 
-![](http://blog.janking.cn/post/modify-c-users/4.jpg)
+![](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/modify-c-users/4.jpg)
 
 
 
@@ -78,7 +78,7 @@ https://www.zhihu.com/question/51241293/answer/134845206
 
 控制面板 -> 用户账户 -> 管理其他账户 -> 在电脑设置中添加新用户
 
-![](http://blog.janking.cn/post/modify-c-users/5.jpg)
+![](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/modify-c-users/5.jpg)
 
 
 
@@ -98,7 +98,7 @@ https://www.zhihu.com/question/51241293/answer/134845206
 
 
 
-![](http://blog.janking.cn/post/modify-c-users/6.jpg)
+![](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/modify-c-users/6.jpg)
 
 ​	4.打开`C:\Users\`，重命名账户名（如果没有获取管理员权限，则不会出现重命名这个选项给你）
 
@@ -110,7 +110,7 @@ https://www.zhihu.com/question/51241293/answer/134845206
 
 ctrl+alt+del 呼出任务管理器 -> 性能 -> 打开资源管理器 -> CPU -> 关联的句柄 ->搜索句柄
 
-![](http://blog.janking.cn/post/modify-c-users/7.jpg)
+![](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/modify-c-users/7.jpg)
 
 结束它，然后重新重命名，就OK了。
 
@@ -122,7 +122,7 @@ ctrl+alt+del 呼出任务管理器 -> 性能 -> 打开资源管理器 -> CPU -> 
 
 在`ProfileList`文件夹下，分别点击名字为较长的字符串的文件夹，查看窗口右侧的`ProfileImagePath`键的内容，凡是`S-1-5`开头的文件夹，全都要翻，找到所有路径为`C:/Users/中文用户名` 的键。
 
-![](http://blog.janking.cn/post/modify-c-users/8.jpg)
+![](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/modify-c-users/8.jpg)
 
 双击改成英文用户名HelloWorld。
 
@@ -155,15 +155,15 @@ Registry Workshop  [Download Free Trial Software](https://link.zhihu.com/?target
 
 之后就是`ctrl+F`
 
-![](http://blog.janking.cn/post/modify-c-users/8.jpg)
+![](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/modify-c-users/8.jpg)
 
 出来如下结果
 
-![](http://blog.janking.cn/post/modify-c-users/9.jpg)
+![](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/modify-c-users/9.jpg)
 
 然后`ctrl+R`
 
-![](http://blog.janking.cn/post/modify-c-users/10.jpg)
+![](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/modify-c-users/10.jpg)
 
 把含有“中文用户名”的地方，替换成对应的英文即可
 

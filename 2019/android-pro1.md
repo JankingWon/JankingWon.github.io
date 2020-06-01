@@ -37,9 +37,9 @@ date: 2018-12-07 19:07:16
 
 
 
-![1543053765227](https://blog.janking.cn/post/android-pro1/1543053765227.png)
+![1543053765227](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/1543053765227.png)
 
-![1543053897874](https://blog.janking.cn/post/android-pro1/1543053897874.png)
+![1543053897874](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/1543053897874.png)
 
 **英雄详情** 
 
@@ -60,11 +60,11 @@ date: 2018-12-07 19:07:16
 12. 英雄技能具体描述（不可修改）
 13. 英雄推荐出装（不可修改），点击会跳转到相应的装备详情页面
 
-![detail_hero](https://blog.janking.cn/post/android-pro1/detail_hero.png)
+![detail_hero](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/detail_hero.png)
 
-![1543055147962](https://blog.janking.cn/post/android-pro1/1543055147962.png)
+![1543055147962](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/1543055147962.png)
 
-![1543055260034](https://blog.janking.cn/post/android-pro1/1543055260034.png)
+![1543055260034](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/1543055260034.png)
 
 **添加英雄**
 
@@ -78,9 +78,9 @@ date: 2018-12-07 19:07:16
 6. 填写英雄职业（默认为：法师）
 7. 填写英雄生存能力，攻击伤害，技能效果，上手难度等信息（范围是1-9，默认是1）
 
-![1543055421948](https://blog.janking.cn/post/android-pro1/1543055421948.png)
+![1543055421948](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/1543055421948.png)
 
-![1543055629975](https://blog.janking.cn/post/android-pro1/1543055629975.png)
+![1543055629975](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/1543055629975.png)
 
 ## 导航栏(SmartTabLayout)
 
@@ -88,7 +88,7 @@ date: 2018-12-07 19:07:16
 
 https://github.com/ogaclejapan/SmartTabLayout
 
-![1542817288428](https://blog.janking.cn/post/android-pro1/1542817288428.png)
+![1542817288428](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/1542817288428.png)
 
 所以`activity_main.xml`中只有一个`ViewPager`和一个导航栏，（其实导航栏是在上面）
 
@@ -161,11 +161,11 @@ FragmentPagerItemAdapter adapter = new FragmentPagerItemAdapter(
 
 **区别一**：`ToolBar`的就是`MenuItem`显示不出来图标，另一个可以
 
-![1542817668675](https://blog.janking.cn/post/android-pro1/1542817668675.png)
+![1542817668675](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/1542817668675.png)
 
 **区别二**：`android.support.v7.widget.Toolbar`在设计页面没有预览，另一个有
 
-![1542817704898](https://blog.janking.cn/post/android-pro1/1542817704898.png)
+![1542817704898](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/1542817704898.png)
 
 **区别三**：`android.support.v7.widget.Toolbar`如果是来自其他`Activity`跳转过来的，它会自动加上标题，而且会自动有返回按钮，而且添加的菜单栏不太好设计（具体我也忘了），所以除了主界面，其他界面我都是用`Toolbar`，方便自己定制
 
@@ -184,19 +184,19 @@ FragmentPagerItemAdapter adapter = new FragmentPagerItemAdapter(
 
 在`Android`视图下创建一个新的文件夹`menu`
 
-![1542872067478](https://blog.janking.cn/post/android-pro1/1542872067478.png)
+![1542872067478](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/1542872067478.png)
 
 
 
 新建`hero_menu.xml`，
 
-![1542872087460](https://blog.janking.cn/post/android-pro1/1542872087460.png)
+![1542872087460](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/1542872087460.png)
 
 
 
 用来保存`ToolBar`上的菜单栏布局
 
-![1542817902374](https://blog.janking.cn/post/android-pro1/1542817902374.png)
+![1542817902374](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/1542817902374.png)
 
 这里只有一个菜单，表示**添加英雄**，而且图标用定义的图标
 
@@ -212,7 +212,7 @@ FragmentPagerItemAdapter adapter = new FragmentPagerItemAdapter(
 那么不展开的菜单会到哪里呢？
 比如英雄详情页面，它会隐藏在**更多**按钮里（显示为三个点）
 
-![1542818274070](https://blog.janking.cn/post/android-pro1/1542818274070.png)
+![1542818274070](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/1542818274070.png)
 
 
 
@@ -870,7 +870,7 @@ mAdapter = new HeroAdapter(mySQLiteHelper.getAllHeroes());
 
 在主界面点击右上角的加号可以进入到一个新的`Activity`
 
-![GIF](https://blog.janking.cn/post/android-pro1/GIF.gif)
+![GIF](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/GIF.gif)
 
 `activity_hero_add.xml`
 
@@ -1110,7 +1110,7 @@ public ArrayList<String> getAllNames(){
 
 > 有两个地方需要添加图片，一个直接点击屏幕上的海报图片选取添加英雄的图片，一个是右上角的菜单添加英雄的头像
 
-![GIF](https://blog.janking.cn/post/android-pro1/GIF-1542857768732.gif)
+![GIF](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/GIF-1542857768732.gif)
 
 以点击页面上的`ImageButton`（中间那个大图片）为例
 
@@ -1195,7 +1195,7 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
 ### 选取语音
 
-![GIF](https://blog.janking.cn/post/android-pro1/GIF-1542858462589.gif)
+![GIF](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/GIF-1542858462589.gif)
 
 在菜单栏里调用系统文件选取器
 
@@ -1259,7 +1259,7 @@ protected void onDestroy() {
 
 这里使用了一个`Spinner`控件
 
-![GIF](https://blog.janking.cn/post/android-pro1/GIF-1542859192451.gif)
+![GIF](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/GIF-1542859192451.gif)
 
 ```java
 <Spinner
@@ -1302,7 +1302,7 @@ hero_category.getSelectedItem().toString();
 
 [原地址](https://github.com/AnderWeb/discreteSeekBar)
 
-![GIF](https://blog.janking.cn/post/android-pro1/GIF-1542862477427.gif)
+![GIF](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/GIF-1542862477427.gif)
 
 ```xml
 <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
@@ -1432,7 +1432,7 @@ public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container,
 
 > 英雄详情页面的其他实现后面再讨论，主要讨论删除功能
 
-![GIF](https://blog.janking.cn/post/android-pro1/GIF-1542863934814.gif)
+![GIF](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/GIF-1542863934814.gif)
 
 
 
@@ -1484,7 +1484,7 @@ else if(h.getDeleted()){
 >
 > 这里只是说明基本功能的实现
 
-![1542865546989](https://blog.janking.cn/post/android-pro1/1542865546989.png)
+![1542865546989](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/1542865546989.png)
 
 
 
@@ -1528,7 +1528,7 @@ mp.start();
 
 不是简单放一个图片作为背景就可以的，如果不做处理的话会看不清字的，像这样
 
-![1542866177371](https://blog.janking.cn/post/android-pro1/1542866177371.png)
+![1542866177371](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/1542866177371.png)
 
 这里做了个最简单的处理，但是也想了好久好久，网上的答案也很少
 
@@ -1636,7 +1636,7 @@ skill1.setOnClickListener(new View.OnClickListener() {
 
 点击英雄详情页面菜单栏的`编辑`就可以进入编辑模式了
 
-![GIF](https://blog.janking.cn/post/android-pro1/GIF-1542866862396.gif)
+![GIF](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/GIF-1542866862396.gif)
 
 ### 查看模式和编辑模式
 
@@ -1753,7 +1753,7 @@ else if(h.getModified()){
 
 ## 查找英雄
 
-![GIF](https://blog.janking.cn/post/android-pro1/GIF-1542868360500.gif)
+![GIF](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/GIF-1542868360500.gif)
 
 ### 使用控件
 
@@ -1863,7 +1863,7 @@ searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
 
 ## 图片轮换器的实现
 
-![GIF](https://blog.janking.cn/post/android-pro1/GIF-1542869646043.gif)
+![GIF](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/GIF-1542869646043.gif)
 
 在英雄的主界面会有一个类似广告页一样的图片轮换器，显示一些英雄的海报（后来做成了收藏的功能），它们会自动切换，并且会循环切换
 
@@ -2093,7 +2093,7 @@ public String[] getAllFavoriteHeroes(){
 
 在英雄详情页面有一个收藏按钮，会有两种形态
 
-![GIF](https://blog.janking.cn/post/android-pro1/GIF-1542871146067.gif)
+![GIF](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/GIF-1542871146067.gif)
 
 同样也是来源于GitHub（[源码地址](https://github.com/ChadCSong/ShineButton)）
 
@@ -2211,7 +2211,7 @@ public void updateWithCategory(List<Hero> total, String category){
 
 
 
-![1542892672396](https://blog.janking.cn/post/android-pro1/1542892672396.png)
+![1542892672396](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/1542892672396.png)
 
 其实`Hero`中只存储了英雄的推荐装备**名称**，在英雄详情页面需要调用数据库得到推荐装备的图标
 
@@ -2245,7 +2245,7 @@ equip1.setOnClickListener(new View.OnClickListener() {
 
 在`manifests`中修改`android:icon`属性
 
-![1542892783035](https://blog.janking.cn/post/android-pro1/1542892783035.png)
+![1542892783035](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/1542892783035.png)
 
 ## 软件启动页面设置
 
@@ -2389,7 +2389,7 @@ AutoCompleteTextViewcompleteText=searchView.findViewById(R.id.search_src_text);
 
 ### 报错
 
-![Sync  Build: ](https://blog.janking.cn/post/android-pro1/clip_image001.png)
+![Sync  Build: ](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/clip_image001.png)
 
 添加依赖
 
@@ -2401,7 +2401,7 @@ AutoCompleteTextViewcompleteText=searchView.findViewById(R.id.search_src_text);
 
 但是会出问题，因为`Uri`这个类型没有实现序列化，`Intent`传递数据需要支持序列化
 
-![1542872395711](https://blog.janking.cn/post/android-pro1/1542872395711.png)
+![1542872395711](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/1542872395711.png)
 
 所以就直接用了`Uri`转换的`String`，但是还是会出现权限不够的问题
 
@@ -2414,7 +2414,7 @@ java.lang.RuntimeException: Unable to start activity ComponentInfo{com.team1.kin
 
 ### AndroidStudio无法预览的问题
 
-![Preview  1 Error  ](https://blog.janking.cn/post/android-pro1/clip_image001.png)
+![Preview  1 Error  ](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/clip_image001.png)
 
 把
 
@@ -2438,7 +2438,7 @@ java.lang.RuntimeException: Unable to start activity ComponentInfo{com.team1.kin
 
 刚开始屏幕内的虚拟按键会遮挡住一部分视图（其实它是在`ScrollView`里面，但是滚动不了），可能它认为虚拟按键底下也是显示区域的一部分吧
 
-![0800  英 雄  攵 击 伤 害 ：  技 能 伤 害 ：  手 难 度 ：  请 点 击 技 能 图 标 过 在 详 细 技 能 谲 点 击 技 能 标 查 详 细 技 能  请 点 击 技 能 留 忻 0 着 详 细 抟 能 请 点 击 能 留 柝 详 红 技 能  请 点 击 技 能 图 标 台 看 许 细 技 能 请 点 击 技 能 标 查 石 许 细 技 北  请 点 工 技 能 标 巷 详 细 技 北  惟 荐 出 装 ](https://blog.janking.cn/post/android-pro1/clip_image001-1542884741952.png)
+![0800  英 雄  攵 击 伤 害 ：  技 能 伤 害 ：  手 难 度 ：  请 点 击 技 能 图 标 过 在 详 细 技 能 谲 点 击 技 能 标 查 详 细 技 能  请 点 击 技 能 留 忻 0 着 详 细 抟 能 请 点 击 能 留 柝 详 红 技 能  请 点 击 技 能 图 标 台 看 许 细 技 能 请 点 击 技 能 标 查 石 许 细 技 北  请 点 工 技 能 标 巷 详 细 技 北  惟 荐 出 装 ](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/clip_image001-1542884741952.png)
 
 网上的博客看了好多解决办法，什么隐藏任务栏，虚拟按键透明啥的，[比如这篇博客](https://blog.csdn.net/alice_1_1/article/details/52385830)
 
@@ -2446,7 +2446,7 @@ java.lang.RuntimeException: Unable to start activity ComponentInfo{com.team1.kin
 
 在`xml`最底下加了个空白的`View`，也就是说让内容变长，即使我看不到最底下的`View`内容（本来就没内容），可那本来就不是我需要的啊，我只要能看到底下`View`上面的内容就好了
 
-![1542888946680](https://blog.janking.cn/post/android-pro1/1542888946680.png)
+![1542888946680](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android-pro1/1542888946680.png)
 
 > 自己都觉得这个想法实在太棒了！
 >

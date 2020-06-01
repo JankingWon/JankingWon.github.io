@@ -59,7 +59,7 @@ date: 2018-12-22 00:57:01
 
 > 注意：转换`guid`的话所在的硬盘的当前任何系统都会损坏，必须要重新安装才可以，这一点要注意了。
 
-![1545412218710](https://blog.janking.cn/post/xiaoxin700blackapple2/1545412218710.png)
+![1545412218710](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple2/1545412218710.png)
 
 > 理论上上面这一步是不需要做的，如果不是GUID格式的，那么后面还有更多事
 >
@@ -72,7 +72,7 @@ date: 2018-12-22 00:57:01
 
 先把ESP分配个磁盘号
 
-![1545413355927](https://blog.janking.cn/post/xiaoxin700blackapple2/1545413355927.png)
+![1545413355927](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple2/1545413355927.png)
 
 > 老实说这一步我也不怎么记得了
 >
@@ -84,23 +84,23 @@ date: 2018-12-22 00:57:01
 
 **替代**原来EFI里面的BOOT和COVER文件夹
 
-![1545413086186](https://blog.janking.cn/post/xiaoxin700blackapple2/1545413086186.png)
+![1545413086186](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple2/1545413086186.png)
 
 ## 设置开机选择菜单
 
 按照下列路径打开`EasyUEFI`
 
-![1545413406560](https://blog.janking.cn/post/xiaoxin700blackapple2/1545413406560.png)
+![1545413406560](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple2/1545413406560.png)
 
 点击添加
 
-![1545413446006](https://blog.janking.cn/post/xiaoxin700blackapple2/1545413446006.png)
+![1545413446006](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple2/1545413446006.png)
 
 选择**Linux或其他操作系统**
 
 再选择`mac`磁盘的那个`EFI`分区（上一步把文件弄进去的那个分区）
 
-![1545413535585](https://blog.janking.cn/post/xiaoxin700blackapple2/1545413535585.png)
+![1545413535585](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple2/1545413535585.png)
 
 点击**浏览**
 
@@ -108,13 +108,13 @@ date: 2018-12-22 00:57:01
 
 点击确定
 
-![1545413622529](https://blog.janking.cn/post/xiaoxin700blackapple2/1545413622529.png)
+![1545413622529](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple2/1545413622529.png)
 
 通过移动顺序，把刚刚设置的启动项移到第一个，**完成**！
 
 以后开机就有像安装时候一样的四叶草选择系统菜单了！
 
-![1545413695386](https://blog.janking.cn/post/xiaoxin700blackapple2/1545413695386.png)
+![1545413695386](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple2/1545413695386.png)
 
 ## 解决外接显示器问题
 
@@ -124,38 +124,38 @@ date: 2018-12-22 00:57:01
 
 不着急……
 
-![IMG_0171](https://blog.janking.cn/post/xiaoxin700blackapple2/IMG_0171.JPG)
+![IMG_0171](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple2/IMG_0171.JPG)
 
 下载文件**Clover Configurator5.3**
 
 打开之后，选择安装MAC的那个磁盘分区，点击**挂载（Mount Partition）**
 
-![IMG_0196](https://blog.janking.cn/post/xiaoxin700blackapple2/IMG_0196.PNG)
+![IMG_0196](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple2/IMG_0196.PNG)
 
 然后**点击Open**
 
-![IMG_0190](https://blog.janking.cn/post/xiaoxin700blackapple2/IMG_0190.PNG)
+![IMG_0190](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple2/IMG_0190.PNG)
 
 找啊找，找到文件`config.plist`
 
 > 这些文件好像是不自动对齐的，所以如果窗口过小可能看不到……
 
-![IMG_0194](https://blog.janking.cn/post/xiaoxin700blackapple2/IMG_0194.PNG)
+![IMG_0194](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple2/IMG_0194.PNG)
 
 右键，**用Clover Configurator打开**
-![IMG_0191](https://blog.janking.cn/post/xiaoxin700blackapple2/IMG_0191.PNG)
+![IMG_0191](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple2/IMG_0191.PNG)
 
 又跳出来一个`Clover Configurator`，点击左边的`SMBIOS`
 
 然后点击右边显示屏下面的选择按钮
 
-![IMG_0192](https://blog.janking.cn/post/xiaoxin700blackapple2/IMG_0192.PNG)
+![IMG_0192](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple2/IMG_0192.PNG)
 
 **选一个`IMAC`型号的显示器**
 
 注意：最好选用同时代的`CPU`，比如我的电脑是`i7-6700HQ`，那我就选择`i7-8700K`
 
-![IMG_0193](https://blog.janking.cn/post/xiaoxin700blackapple2/IMG_0193.PNG)
+![IMG_0193](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple2/IMG_0193.PNG)
 
 直接点击关闭就可以了！
 
@@ -163,10 +163,10 @@ date: 2018-12-22 00:57:01
 
 ## 最后欣赏一下
 
-![IMG_0189](https://blog.janking.cn/post/xiaoxin700blackapple2/IMG_0189.PNG)
+![IMG_0189](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple2/IMG_0189.PNG)
 
-![IMG_0187](https://blog.janking.cn/post/xiaoxin700blackapple2/IMG_0187.PNG)
+![IMG_0187](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple2/IMG_0187.PNG)
 
-![IMG_0188](https://blog.janking.cn/post/xiaoxin700blackapple2/IMG_0188.PNG)
+![IMG_0188](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple2/IMG_0188.PNG)
 
 <!-- more --> 

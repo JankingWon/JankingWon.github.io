@@ -18,7 +18,7 @@ date: 2018-12-21 16:17:18
 
 效果
 
-![IMG_0189](https://blog.janking.cn/post/xiaoxin700blackapple2/IMG_0189.PNG)
+![IMG_0189](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple2/IMG_0189.PNG)
 
 基本完美，很流畅
 
@@ -74,37 +74,37 @@ date: 2018-12-21 16:17:18
 
 右键`TransMac`，以**管理员**身份运行
 
-![1545380960838](https://blog.janking.cn/post/xiaoxin700blackapple/1545380960838.png)
+![1545380960838](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/1545380960838.png)
 
 找到要刻录的U盘，格式化
 
-![A](https://blog.janking.cn/post/xiaoxin700blackapple/A.png)
+![A](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/A.png)
 
-![B](https://blog.janking.cn/post/xiaoxin700blackapple/B.png)
+![B](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/B.png)
 
 写上格式化后的磁盘名称
 
-![C](https://blog.janking.cn/post/xiaoxin700blackapple/C.png)
+![C](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/C.png)
 
 等待格式化
 
-![D](https://blog.janking.cn/post/xiaoxin700blackapple/D.png)
+![D](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/D.png)
 
 写入系统文件
 
-![E](https://blog.janking.cn/post/xiaoxin700blackapple/E.png)
+![E](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/E.png)
 
-![F](https://blog.janking.cn/post/xiaoxin700blackapple/F.png)
+![F](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/F.png)
 
 选择下载的Mac系统镜像文件
 
-![G](https://blog.janking.cn/post/xiaoxin700blackapple/G.png)
+![G](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/G.png)
 
-等待进度条![H](https://blog.janking.cn/post/xiaoxin700blackapple/H.png)
+等待进度条![H](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/H.png)
 
 最后成功
 
-![i](https://blog.janking.cn/post/xiaoxin700blackapple/i.png)
+![i](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/i.png)
 
 
 
@@ -114,21 +114,21 @@ date: 2018-12-21 16:17:18
 
 一定要点**取消！**
 
-![1545383409511](https://blog.janking.cn/post/xiaoxin700blackapple/1545383409511.png)
+![1545383409511](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/1545383409511.png)
 
 然后显示这个，不要担心，只是`Windows`**暂时不识别它**，不是U盘损坏了！
 
-![1545383429274](https://blog.janking.cn/post/xiaoxin700blackapple/1545383429274.png)
+![1545383429274](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/1545383429274.png)
 
 ## 修改EFI分区
 
 现在来检查一下能不能在`我的电脑`里识别U盘的EFI分区
 
-![1545381566045](https://blog.janking.cn/post/xiaoxin700blackapple/1545381566045.png)
+![1545381566045](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/1545381566045.png)
 
 > PS.这个跟Windows的系统启动盘不一样，写入系统镜像后，U盘被分成了三个区，通过磁盘管理可以看到
 >
-> ![1545381630698](https://blog.janking.cn/post/xiaoxin700blackapple/1545381630698.png)
+> ![1545381630698](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/1545381630698.png)
 >
 > - EFI是用来启动安装程序的
 > - 主分区MacOS的系统文件
@@ -140,19 +140,19 @@ date: 2018-12-21 16:17:18
 
 - 如果能显示但是如下图无法访问的话进行**修改EFI分区操作**
 
-![1545381856711](https://blog.janking.cn/post/xiaoxin700blackapple/1545381856711.png)
+![1545381856711](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/1545381856711.png)
 
-![1545381865240](https://blog.janking.cn/post/xiaoxin700blackapple/1545381865240.png)
+![1545381865240](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/1545381865240.png)
 
 ### 显示EFI分区操作
 
 搜索栏中输入`cmd`，右键以管理员身份运行（右键菜单不好截图）
 
-![1545382035179](https://blog.janking.cn/post/xiaoxin700blackapple/1545382035179.png)
+![1545382035179](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/1545382035179.png)
 
 首先输入`diskpart`，打开磁盘分区工具
 
-![1545382434728](https://blog.janking.cn/post/xiaoxin700blackapple/1545382434728.png)
+![1545382434728](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/1545382434728.png)
 
 再顺序输入以下命令
 
@@ -165,7 +165,7 @@ set id="EBD0A0A2-B9E5-4433-87C0-68B6B72699C7"
 assign letter x
 ```
 
-![未命名图片](https://blog.janking.cn/post/xiaoxin700blackapple/未命名图片.png)
+![未命名图片](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/未命名图片.png)
 
 > **注意：**
 >
@@ -195,11 +195,11 @@ assign letter x
 
 `EFI`文件夹里有两个文件夹`BOOT`和`CLOVER`
 
-![1545382616254](https://blog.janking.cn/post/xiaoxin700blackapple/1545382616254.png)
+![1545382616254](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/1545382616254.png)
 
 删除它们，然后复制下载好的小新`700EFI`里面的文件到进去（就是复制到X盘里面的`EFI`文件夹里面去）
 
-![1545382777253](https://blog.janking.cn/post/xiaoxin700blackapple/1545382777253.png)
+![1545382777253](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/1545382777253.png)
 
 ## 安装选项
 
@@ -207,17 +207,17 @@ assign letter x
 
 戳一戳小新700左边的复位孔
 
-![](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0130-1545414078897.JPG)
+![](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0130-1545414078897.JPG)
 
 会出来一个四个选项的菜单
 
 选择**Boot Menu**
 
-![IMG_0131](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0131.JPG)
+![IMG_0131](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0131.JPG)
 
 然后**选择自己的安装U盘**，我这里是`USB HDD`
 
-![IMG_0132](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0132.JPG)
+![IMG_0132](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0132.JPG)
 
 左右移动到**X标志**（mac OSX）的图标上
 
@@ -225,7 +225,7 @@ assign letter x
 
 **按下空格键**
 
-![IMG_0133](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0133-1545381693831.JPG)
+![IMG_0133](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0133-1545381693831.JPG)
 
 默认勾选了三个选项，不用管它，移动到
 
@@ -233,49 +233,49 @@ assign letter x
 
 **按下回车键**
 
-![IMG_0134](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0134-1545381622376.JPG)
+![IMG_0134](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0134-1545381622376.JPG)
 
 然后会出现一堆代码
 
 等待……
 
-![IMG_0135](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0135.JPG)
+![IMG_0135](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0135.JPG)
 
 ## 开始安装
 
 **选择中文**
 
-![IMG_0136](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0136.JPG)
+![IMG_0136](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0136.JPG)
 
 **选择磁盘工具**
 
-![IMG_0137](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0137.JPG)
+![IMG_0137](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0137.JPG)
 
 选择要安装`macOS`的盘，**选择抹掉**
 
-![IMG_0138](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0138.JPG)
+![IMG_0138](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0138.JPG)
 
 名称任意取
 
 **选择`APFS`格式**（这是新版的`macOS`采用的文件系统）
 
-![IMG_0142](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0142.JPG)
+![IMG_0142](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0142.JPG)
 
 关闭磁盘工具，回到安装界面，**选择安装`macOS`**
 
-![IMG_0144](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0144.JPG)
+![IMG_0144](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0144.JPG)
 
 出现如下界面
 
-![IMG_0145](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0145.JPG)
+![IMG_0145](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0145.JPG)
 
 找到**刚刚抹掉的磁盘**，**点击安装**
 
-![IMG_0150](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0150.JPG)
+![IMG_0150](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0150.JPG)
 
 等待……
 
-![IMG_0155](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0155.JPG)
+![IMG_0155](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0155.JPG)
 
 ## 二次安装
 
@@ -291,31 +291,31 @@ assign letter x
 >
 > 这里是因为我的磁盘名字叫做Mac
 
-![IMG_0156](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0156.JPG)
+![IMG_0156](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0156.JPG)
 
 一样的选择
 
-![IMG_0157](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0157.JPG)
+![IMG_0157](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0157.JPG)
 
 等待……
 
-![IMG_0161](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0161.JPG)
+![IMG_0161](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0161.JPG)
 
 **然后就好啦！**
 
 重新进入系统就开始设置了
 
-![IMG_0163](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0163.JPG)
+![IMG_0163](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0163.JPG)
 
-![IMG_0164](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0164.JPG)
+![IMG_0164](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0164.JPG)
 
 可以看到**确实没有无线网卡**
 
-![IMG_0165](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0165.JPG)
+![IMG_0165](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0165.JPG)
 
 可以告一段落了
 
-![IMG_0169](https://blog.janking.cn/post/xiaoxin700blackapple/IMG_0169-1545411344288.JPG)
+![IMG_0169](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/xiaoxin700blackapple/IMG_0169-1545411344288.JPG)
 
 还会有点小毛病，后面再解决！
 

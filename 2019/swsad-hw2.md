@@ -64,21 +64,21 @@ date: 2019-03-17 22:30:42
 
 ### 看板使用练习
 
-![1552837799388](https://blog.janking.cn/post/swsad-hw2/1552837799388.png)
+![1552837799388](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/swsad-hw2/1552837799388.png)
 
-![1552837848516](https://blog.janking.cn/post/swsad-hw2/1552837848516.png)
+![1552837848516](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/swsad-hw2/1552837848516.png)
 
-![1552837884154](https://blog.janking.cn/post/swsad-hw2/1552837884154.png)
+![1552837884154](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/swsad-hw2/1552837884154.png)
 
 ### UML绘图工具练习
 
 **参照中文教材181页**
 
-![1552839873652](https://blog.janking.cn/post/swsad-hw2/1552839873652.png)
+![1552839873652](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/swsad-hw2/1552839873652.png)
 
 **使用UMLet作图如下**
 
-![1552839832229](https://blog.janking.cn/post/swsad-hw2/1552839832229.png)
+![1552839832229](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/swsad-hw2/1552839832229.png)
 
 
 

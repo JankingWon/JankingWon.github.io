@@ -21,7 +21,7 @@ date: 2019-05-18 15:44:46
 
 进去之后有两款产品选择
 
-![1558165729691](https://blog.janking.cn/post/aliyun-stu-server/1558165729691.png)
+![1558165729691](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558165729691.png)
 
 如何选择它们呢？
 
@@ -52,13 +52,13 @@ date: 2019-05-18 15:44:46
 - 但是版本不是最新，后续可以在线升级
   
 
-![1558242151499](https://blog.janking.cn/post/aliyun-stu-server/1558242151499.png)
+![1558242151499](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558242151499.png)
 
 - `ASP.NET`
 
   - 不是很了解，应该是`.NET`网站的运行环境
 
-![1558166256044](https://blog.janking.cn/post/aliyun-stu-server/1558166256044.png)
+![1558166256044](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558166256044.png)
 
 还有一种是**系统镜像**
 
@@ -66,7 +66,7 @@ date: 2019-05-18 15:44:46
 
 但是还是推荐`CentOS`，基本就是为服务器而生的，也是鸟哥(`Linux`私房菜作者)推荐的系统
 
-![1558166650574](https://blog.janking.cn/post/aliyun-stu-server/1558166650574.png)
+![1558166650574](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558166650574.png)
 
 我这里选的是`Centos`镜像，因为方便自己来管理
 
@@ -76,13 +76,13 @@ date: 2019-05-18 15:44:46
 
 只要学生身份没到期，服务器没到期，都是可以进行续费的，不像某讯云，只能续费两次，然后服务器没了就是真的没了
 
-![1558166885670](https://blog.janking.cn/post/aliyun-stu-server/1558166885670.png)
+![1558166885670](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558166885670.png)
 
 ## 第一件事
 
 付完款之后，服务器准备一段时间，然后点击控制台就可以进入命令行了
 
-![1558165544216](https://blog.janking.cn/post/aliyun-stu-server/1558165544216.png)
+![1558165544216](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558165544216.png)
 
 那么有了一个服务器第一件事是干什么？
 
@@ -104,23 +104,23 @@ $sudo su root
 
 下图超长时间，而且还没录完....
 
-![GIF](https://blog.janking.cn/post/aliyun-stu-server/GIF.gif)
+![GIF](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/GIF.gif)
 
 最后看到，除了`ls`，`pwd`，`cd`等命令，别的命令基本失效了
 
 其实执行过程中很多都提示权限不够无法删除，说明还是`Centos`有一些机制保护的
 
-![1558168207583](https://blog.janking.cn/post/aliyun-stu-server/1558168207583.png)
+![1558168207583](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558168207583.png)
 
 好了，然后重装系统吧
 
-![1558168444459](https://blog.janking.cn/post/aliyun-stu-server/1558168444459.png)
+![1558168444459](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558168444459.png)
 
 ## 放行端口
 
 看需要放行吧，起码`22`用来`ssh`得要开放
 
-![1558172104445](https://blog.janking.cn/post/aliyun-stu-server/1558172104445.png)
+![1558172104445](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558172104445.png)
 
 ## 连接服务器
 
@@ -130,23 +130,23 @@ $sudo su root
 
 可以用命令行重置密码，也可以点击服务器管理的重置密码
 
-![1558168925570](https://blog.janking.cn/post/aliyun-stu-server/1558168925570.png)
+![1558168925570](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558168925570.png)
 
 ### 创建密钥
 
 这是一个比较安全的方式登录服务器，即使别人获取了密码也登录不了
 
-![1558169623510](https://blog.janking.cn/post/aliyun-stu-server/1558169623510.png)
+![1558169623510](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558169623510.png)
 
 然后输入密钥名字，会自动生成并且自动下载，此时要把这个下载文件保存好，因为以后再也找不到这个密钥了
 
-![1558169682577](https://blog.janking.cn/post/aliyun-stu-server/1558169682577.png)
+![1558169682577](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558169682577.png)
 
 这里我是用`Termius`[连接](https://termius.com/)
 
 然后把下载的目录里面的内容（也就是私钥）复制到`Termius`的`KeyChain`里
 
-![1558170079812](https://blog.janking.cn/post/aliyun-stu-server/1558170079812.png)
+![1558170079812](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558170079812.png)
 
 然后点击`Hosts`，新建一个阿里云服务器的连接，其`IP`地址在服务器管理哪里看得到，填公网`IP`！
 
@@ -154,7 +154,7 @@ $sudo su root
 
 > admin是阿里云自己新建了这么一个用户，没有密码
 
-![1558170550037](https://blog.janking.cn/post/aliyun-stu-server/1558170550037.png)
+![1558170550037](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558170550037.png)
 
 进去之后还是先创建一个非`root`账户比较安全
 
@@ -168,7 +168,7 @@ $su janking
 
 顺便说一下，阿里云提供的`admin`账号没有密码，是不能通过`ssh`登录的，也要通过`passwd`修改密码
 
-![1558171184252](https://blog.janking.cn/post/aliyun-stu-server/1558171184252.png)
+![1558171184252](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558171184252.png)
 
 ## 安装面板
 
@@ -185,7 +185,7 @@ $yum install -y wget && wget -O install.sh http://download.bt.cn/install/install
 
 安装完成后会告诉**面板地址**和**账号密码**
 
-![1558172586489](https://blog.janking.cn/post/aliyun-stu-server/1558172586489.png)
+![1558172586489](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558172586489.png)
 
 进入面板会提示安装套件，比如`LNMP`
 
@@ -195,7 +195,7 @@ $yum install -y wget && wget -O install.sh http://download.bt.cn/install/install
 
 进入安全，更改`ssh`端口
 
-![1558173558885](https://blog.janking.cn/post/aliyun-stu-server/1558173558885.png)
+![1558173558885](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558173558885.png)
 
 然后要记得放行新端口以及在阿里云服务器控制台防火墙放行这个端口
 
@@ -205,19 +205,19 @@ $yum install -y wget && wget -O install.sh http://download.bt.cn/install/install
 
 点击添加**站点**，填写**域名**
 
-> 域名请查看这篇文章[阿里云邮件服务绑定域名](https://blog.janking.cn/post/aliyun-email.html#添加域名)
+> 域名请查看这篇文章[阿里云邮件服务绑定域名](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-email.html)
 >
 > 前提是域名要解析到服务器的这个IP地址
 
-![1558173981943](https://blog.janking.cn/post/aliyun-stu-server/1558173981943.png)
+![1558173981943](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558173981943.png)
 
 创建完成后，默认只有一个`index`页和`404`页
 
-![1558174128561](https://blog.janking.cn/post/aliyun-stu-server/1558174128561.png)
+![1558174128561](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558174128561.png)
 
 访问效果如图
 
-![1558174156910](https://blog.janking.cn/post/aliyun-stu-server/1558174156910.png)
+![1558174156910](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558174156910.png)
 
 尝试修改`index.html`文件也可以实时看到不同的网页
 
@@ -247,13 +247,13 @@ $rpm -ivh jre-8u211-linux-x64.rpm
 
 > 在IDEA中直接点击就可以，当然也可以用命令行输入`mvn package`
 
-![1558174829309](https://blog.janking.cn/post/aliyun-stu-server/1558174829309.png)
+![1558174829309](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558174829309.png)
 
 位于`/target`目录下会生成类似`swsad-0.0.1-SNAPSHOT.jar`文件名的文件
 
 然后登录面板，把本地生成的`jar`压缩包上传至网站目录下
 
-![1557644311214](https://blog.janking.cn/post/aliyun-stu-server/1557644311214.png)
+![1557644311214](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1557644311214.png)
 
 然后输入命令
 
@@ -290,12 +290,12 @@ $ kill 进程号
            proxy_set_header X-Forwarded-Proto $scheme;              
            proxy_set_header X-Forwarded-Port $server_port;         
     }
-![1558177349987](https://blog.janking.cn/post/aliyun-stu-server/1558177349987.png)
+![1558177349987](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558177349987.png)
 
 > 最好把绿色部分配置删掉，让网站指读取spring boot的内容
 
 然后就可以用如`api.timoney.xyz`访问`api`了
 
-![1558177514699](https://blog.janking.cn/post/aliyun-stu-server/1558177514699.png)
+![1558177514699](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/aliyun-stu-server/1558177514699.png)
 
 > `chrome`提示不安全，因为不是`https`协议，只要申请个免费的`ssl`证书就好了，不过这样也不影响

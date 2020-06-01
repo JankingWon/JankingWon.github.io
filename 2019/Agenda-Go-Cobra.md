@@ -65,7 +65,7 @@ Add commands to it by running `cobra add [cmdname]`.
 
 测试成功
 
-![1540705248989](http://blog.janking.cn/post/Agenda-Go-Cobra/1540705248989.png)
+![1540705248989](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/Agenda-Go-Cobra/1540705248989.png)
 
 
 
