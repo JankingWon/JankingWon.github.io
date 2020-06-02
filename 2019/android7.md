@@ -29,11 +29,11 @@ date: 2018-11-13 22:02:11
 
 效果如下:（图片比较大）
 
-![GIF](https://blog.janking.cn/post/android7/GIF-1542127554823.gif)
+![GIF](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android7/GIF-1542127554823.gif)
 
 ## 登录注册页面的切换
 
-![1](https://blog.janking.cn/post/android7/1.gif)
+![1](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android7/1.gif)
 
 两个按钮用`RadioButton`就可以实现了
 
@@ -348,7 +348,7 @@ switch (userSQLiteHelper.loginVerify(login_username.getText().toString(), login_
 
 
 
-![2](https://blog.janking.cn/post/android7/2.gif)
+![2](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android7/2.gif)
 
 这里的用户头像其实是一个`ImageButton`，设置监听事件为
 
@@ -425,7 +425,7 @@ W/ImageView: Unable to open content: content://com.google.android.apps.photos.co
 
 **把图片存到自己的地盘！**
 
-就是使用`InternalStorage`把图片复制一份到本应用的`files`文件夹中：[参考教程](https://blog.janking.cn/post/android6.html)
+就是使用`InternalStorage`把图片复制一份到本应用的`files`文件夹中：[参考教程](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android6.html)
 
 所以修改`onActivityResult`
 
@@ -778,7 +778,7 @@ public class Convert {
 
 效果：
 
-![3](https://blog.janking.cn/post/android7/3-1542127162596.gif)
+![3](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android7/3-1542127162596.gif)
 
 ### Item项布局
 
