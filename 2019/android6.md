@@ -18,8 +18,6 @@ date: 2018-10-31 21:56:39
 
 ------
 
-<!-- more --> 
-
 ## 实现效果
 
 ![GIF](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android6/GIF.gif)

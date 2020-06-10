@@ -19,8 +19,6 @@ date: 2018-10-17 20:20:00
 > 3. 掌握Notification 编程基础。
 > 4. 掌握 EventBus 编程基础。
 
-<!-- more --> 
-
 ## 设置Activity为单例模式
 
 `manifests`中添加

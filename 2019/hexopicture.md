@@ -17,8 +17,6 @@ date: 2018-10-06 21:13:59
 
 在本地`Hexo`博客的目录下（子目录也行），打开`powershell`，输入`Hexo new “helloworld”`, 就可以新建一个空标题（指的是博客文章）和名称（指的是md文件）都为`helloworld`的`md`文件了，最好不要自己手动新建一个`md`文件，最起码对图片插入不友好，后面会提到
 
-<!-- more --> 
-
 ## MarkDown编辑器推荐
 
 `Typora` windows平台就它了，不用挑了！

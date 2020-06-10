@@ -24,8 +24,6 @@ date: 2018-12-18 19:28:51
 > 3. 复习使用`RxJava`
 > 4. 学会使用`OkHttp`
 
-<!-- more --> 
-
 ## 效果
 
 ![效果](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android11/效果.gif)

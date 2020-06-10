@@ -1,4 +1,11 @@
+---
+2020-03-10 13:23
+---
+
+# 【100%有效】解决AndroidStudio 控制台编译输出中文乱码，亲测解决！
+
 ## 背景
+
 在`AndroidStudio`中新建了一个`Java Module`，但是点击 `Run ‘app’`之后，`Build Output` 控制台输出的中文都是乱码，都是问号一样的字符
 ![20200310125404524](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2020/image/20200310125404524.png)
 `google`了很多方法，要么就是文不对题，要么就是各种抄，没有真正测试过！

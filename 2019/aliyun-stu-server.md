@@ -15,8 +15,6 @@ date: 2019-05-18 15:44:46
 
 [云翼计划链接](<https://promotion.aliyun.com/ntms/act/campus2018.html>)
 
-<!-- more --> 
-
 ### 产品选择
 
 进去之后有两款产品选择

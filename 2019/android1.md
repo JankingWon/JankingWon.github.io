@@ -13,8 +13,6 @@ date: 2018-09-27 00:12:37
 > 1. 熟悉Android Studio开发工具操作。
 > 2. 熟悉Android Studio基本UI开发，并进行UI基本设计。
 
-<!-- more --> 
-
 ## 创建一个文本框 `TextView`
 
 首先要清楚布局文件在哪里

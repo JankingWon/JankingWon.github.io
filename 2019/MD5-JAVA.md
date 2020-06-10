@@ -1,4 +1,9 @@
-@[toc]
+---
+url: md5-java
+data: 2018-12-03 20:19
+---
+
+
 ## 一、算法原理概述
 
 ### MD5 即Message-Digest Algorithm 5 (信息-摘要算法5)

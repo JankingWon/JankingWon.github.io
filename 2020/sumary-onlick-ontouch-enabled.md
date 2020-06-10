@@ -1,4 +1,11 @@
+---
+2020-04-12 18:16
+---
+
+# 干货总结！从源码分析点击事件、触摸事件、enabled、clickable的关系
+
 ## 直接来总结
+
 附上本人总结的表格（已用代码验证）
 
 | enabled | clickable | onTouchListener是否会被调用 | onTouchListener#onTouch返回值 | onClickListener是否会被调用 | onTouchEvent返回值 | dispatchTouchEvent返回值 |

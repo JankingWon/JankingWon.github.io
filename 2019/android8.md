@@ -20,8 +20,6 @@ date: 2018-11-27 12:35:19
 > 3. 学会使用Service进行后台工作
 > 4. 学会使用Service与Activity进行通信
 
-<!-- more --> 
-
 ## 效果预览
 
 ![gif5新文件](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android8/gif5新文件.gif)

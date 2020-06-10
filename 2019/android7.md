@@ -25,8 +25,6 @@ date: 2018-11-13 22:02:11
 
 这次大概是做一个有登录、注册、评论、点赞等功能的小型APP
 
-<!-- more --> 
-
 效果如下:（图片比较大）
 
 ![GIF](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android7/GIF-1542127554823.gif)

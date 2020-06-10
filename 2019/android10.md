@@ -22,8 +22,6 @@ date: 2018-12-08 17:01:25
 > 3. 学会解析JSON数据
 > 4. 学习CardView布局技术
 
-<!-- more --> 
-
 ## 效果
 
 ![效果图](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android10/gif5.gif)

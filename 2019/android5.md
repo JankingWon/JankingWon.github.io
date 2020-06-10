@@ -20,13 +20,7 @@ date: 2018-10-25 20:29:08
 
 **先上效果图**
 
-
-
-
-
 ![GIF](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2019/android5/GIF-1540489328401.gif)
-
-<!-- more --> 
 
 ## 创建一个AppWidget
 

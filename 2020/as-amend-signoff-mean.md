@@ -1,3 +1,9 @@
+---
+2020-02-22 17:49
+---
+
+# AndroidStudio/Idea 的 Amend commit和Sign-off commit 是什么意思？
+
 ![20200222173523816](https://raw.githubusercontent.com/JankingWon/JankingWon.github.io/master/2020/image/20200222173523816.png)
 如上图，直接做实验验证
 
